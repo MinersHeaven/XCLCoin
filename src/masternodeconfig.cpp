@@ -1,20 +1,18 @@
 
-#include "netbase.h"
+#include "net.h"
 #include "masternodeconfig.h"
 #include "util.h"
-#include "chainparams.h"
-
-#include <boost/filesystem.hpp>
-#include <boost/filesystem/fstream.hpp>
+#include "ui_interface.h"
+#include <base58.h>
 
 CMasternodeConfig masternodeConfig;
 
-void CMasternodeConfig::add(const std::string& alias, const std::string& ip, const std::string& privKey, const std::string& txHash, const std::string& outputIndex) {
+void CMasternodeConfig::add(std::string alias, std::string ip, std::string privKey, std::string txHash, std::string outputIndex) {
     CMasternodeEntry cme(alias, ip, privKey, txHash, outputIndex);
     entries.push_back(cme);
 }
 
-bool CMasternodeConfig::read(std::string& strErrRet) {
+bool CMasternodeConfig::read(std::string& strErr) {
     int linenumber = 1;
     boost::filesystem::path pathMasternodeConfigFile = GetMasternodeConfigFile();
     boost::filesystem::ifstream streamConfig(pathMasternodeConfigFile);
@@ -48,36 +46,25 @@ bool CMasternodeConfig::read(std::string& strErrRet) {
             iss.str(line);
             iss.clear();
             if (!(iss >> alias >> ip >> privKey >> txHash >> outputIndex)) {
-                strErrRet = _("Could not parse masternode.conf") + "\n" +
+                strErr = _("Could not parse masternode.conf") + "\n" +
                         strprintf(_("Line: %d"), linenumber) + "\n\"" + line + "\"";
                 streamConfig.close();
                 return false;
             }
         }
 
-        int port = 0;
-        std::string hostname = "";
-        SplitHostPort(ip, port, hostname);
-        if(port == 0 || hostname == "") {
-            strErrRet = _("Failed to parse host:port string") + "\n"+
-                    strprintf(_("Line: %d"), linenumber) + "\n\"" + line + "\"";
-            streamConfig.close();
-            return false;
-        }
-        int mainnetDefaultPort = Params(CBaseChainParams::MAIN).GetDefaultPort();
-        if(Params().NetworkIDString() == CBaseChainParams::MAIN) {
-            if(port != mainnetDefaultPort) {
-                strErrRet = _("Invalid port detected in masternode.conf") + "\n" +
-                        strprintf(_("Port: %d"), port) + "\n" +
+        if(Params().NetworkID() == CBaseChainParams::MAIN) {
+            if(CService(ip).GetPort() != 9999) {
+                strErr = _("Invalid port detected in masternode.conf") + "\n" +
                         strprintf(_("Line: %d"), linenumber) + "\n\"" + line + "\"" + "\n" +
-                        strprintf(_("(must be %d for mainnet)"), mainnetDefaultPort);
+                        _("(must be 9999 for mainnet)");
                 streamConfig.close();
                 return false;
             }
-        } else if(port == mainnetDefaultPort) {
-            strErrRet = _("Invalid port detected in masternode.conf") + "\n" +
+        } else if(CService(ip).GetPort() == 9999) {
+            strErr = _("Invalid port detected in masternode.conf") + "\n" +
                     strprintf(_("Line: %d"), linenumber) + "\n\"" + line + "\"" + "\n" +
-                    strprintf(_("(%d could be used only on mainnet)"), mainnetDefaultPort);
+                    _("(9999 could be used only on mainnet)");
             streamConfig.close();
             return false;
         }

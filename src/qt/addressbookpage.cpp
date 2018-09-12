@@ -1,6 +1,6 @@
-// Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The Dash Core developers
-// Distributed under the MIT software license, see the accompanying
+// Copyright (c) 2011-2014 The Bitcoin developers
+// Copyright (c) 2014-2015 The Dash developers
+// Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
@@ -15,33 +15,27 @@
 #include "csvmodelwriter.h"
 #include "editaddressdialog.h"
 #include "guiutil.h"
-#include "platformstyle.h"
 
 #include <QIcon>
 #include <QMenu>
 #include <QMessageBox>
 #include <QSortFilterProxyModel>
 
-AddressBookPage::AddressBookPage(const PlatformStyle *platformStyle, Mode _mode, Tabs _tab, QWidget *parent) :
+AddressBookPage::AddressBookPage(Mode mode, Tabs tab, QWidget *parent) :
     QDialog(parent),
     ui(new Ui::AddressBookPage),
     model(0),
-    mode(_mode),
-    tab(_tab)
+    mode(mode),
+    tab(tab)
 {
-    QString theme = GUIUtil::getThemeName();
     ui->setupUi(this);
-    if (!platformStyle->getImagesOnButtons()) {
-        ui->newAddress->setIcon(QIcon());
-        ui->copyAddress->setIcon(QIcon());
-        ui->deleteAddress->setIcon(QIcon());
-        ui->exportButton->setIcon(QIcon());
-    } else {
-        ui->newAddress->setIcon(QIcon(":/icons/" + theme + "/add"));
-        ui->copyAddress->setIcon(QIcon(":/icons/" + theme + "/editcopy"));
-        ui->deleteAddress->setIcon(QIcon(":/icons/" + theme + "/remove"));
-        ui->exportButton->setIcon(QIcon(":/icons/" + theme + "/export"));
-    }
+
+#ifdef Q_OS_MAC // Icons on push buttons are very uncommon on Mac
+    ui->newAddress->setIcon(QIcon());
+    ui->copyAddress->setIcon(QIcon());
+    ui->deleteAddress->setIcon(QIcon());
+    ui->exportButton->setIcon(QIcon());
+#endif
 
     switch(mode)
     {
@@ -84,7 +78,7 @@ AddressBookPage::AddressBookPage(const PlatformStyle *platformStyle, Mode _mode,
     deleteAction = new QAction(ui->deleteAddress->text(), this);
 
     // Build context menu
-    contextMenu = new QMenu(this);
+    contextMenu = new QMenu();
     contextMenu->addAction(copyAddressAction);
     contextMenu->addAction(copyLabelAction);
     contextMenu->addAction(editAction);
@@ -108,14 +102,14 @@ AddressBookPage::~AddressBookPage()
     delete ui;
 }
 
-void AddressBookPage::setModel(AddressTableModel *_model)
+void AddressBookPage::setModel(AddressTableModel *model)
 {
-    this->model = _model;
-    if(!_model)
+    this->model = model;
+    if(!model)
         return;
 
     proxyModel = new QSortFilterProxyModel(this);
-    proxyModel->setSourceModel(_model);
+    proxyModel->setSourceModel(model);
     proxyModel->setDynamicSortFilter(true);
     proxyModel->setSortCaseSensitivity(Qt::CaseInsensitive);
     proxyModel->setFilterCaseSensitivity(Qt::CaseInsensitive);
@@ -148,7 +142,7 @@ void AddressBookPage::setModel(AddressTableModel *_model)
         this, SLOT(selectionChanged()));
 
     // Select row for newly created address
-    connect(_model, SIGNAL(rowsInserted(QModelIndex,int,int)), this, SLOT(selectNewAddress(QModelIndex,int,int)));
+    connect(model, SIGNAL(rowsInserted(QModelIndex,int,int)), this, SLOT(selectNewAddress(QModelIndex,int,int)));
 
     selectionChanged();
 }
@@ -255,7 +249,8 @@ void AddressBookPage::done(int retval)
     // Figure out which address was selected, and return it
     QModelIndexList indexes = table->selectionModel()->selectedRows(AddressTableModel::Address);
 
-    Q_FOREACH (const QModelIndex& index, indexes) {
+    foreach (QModelIndex index, indexes)
+    {
         QVariant address = table->model()->data(index);
         returnValue = address.toString();
     }

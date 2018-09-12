@@ -1,7 +1,4 @@
 #!/usr/bin/env python
-# Copyright (c) 2012 The Bitcoin Core developers
-# Distributed under the MIT software license, see the accompanying
-# file COPYING or http://www.opensource.org/licenses/mit-license.php.
 '''
 Generate valid and invalid base58 address and private key test vectors.
 
@@ -20,7 +17,7 @@ from binascii import b2a_hex
 # key types
 PUBKEY_ADDRESS = 76
 SCRIPT_ADDRESS = 16
-PUBKEY_ADDRESS_TEST = 140
+PUBKEY_ADDRESS_TEST = 139
 SCRIPT_ADDRESS_TEST = 19
 PRIVKEY = 204
 PRIVKEY_TEST = 239
@@ -45,6 +42,7 @@ def is_valid(v):
     result = b58decode_chk(v)
     if result is None:
         return False
+    valid = False
     for template in templates:
         prefix = str(bytearray(template[0]))
         suffix = str(bytearray(template[2]))

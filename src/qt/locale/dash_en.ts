@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="en">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="en" version="2.0">
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -19,7 +17,7 @@
         <translation>&amp;New</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+14"/>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Copy the currently selected address to the system clipboard</translation>
     </message>
@@ -29,7 +27,7 @@
         <translation>&amp;Copy</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+14"/>
         <source>Delete the currently selected address from the list</source>
         <translation>Delete the currently selected address from the list</translation>
     </message>
@@ -39,7 +37,7 @@
         <translation>&amp;Delete</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+27"/>
         <source>Export the data in the current tab to a file</source>
         <translation>Export the data in the current tab to a file</translation>
     </message>
@@ -49,12 +47,12 @@
         <translation>&amp;Export</translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+20"/>
         <source>C&amp;lose</source>
         <translation>C&amp;lose</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="+51"/>
+        <location filename="../addressbookpage.cpp" line="+45"/>
         <source>Choose the address to send coins to</source>
         <translation>Choose the address to send coins to</translation>
     </message>
@@ -104,7 +102,7 @@
         <translation>&amp;Edit</translation>
     </message>
     <message>
-        <location line="+193"/>
+        <location line="+194"/>
         <source>Export Address List</source>
         <translation>Export Address List</translation>
     </message>
@@ -127,7 +125,7 @@
 <context>
     <name>AddressTableModel</name>
     <message>
-        <location filename="../addresstablemodel.cpp" line="+171"/>
+        <location filename="../addresstablemodel.cpp" line="+169"/>
         <source>Label</source>
         <translation>Label</translation>
     </message>
@@ -165,7 +163,17 @@
         <translation>Repeat new passphrase</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="+47"/>
+        <location line="+33"/>
+        <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
+        <translation>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>For anonymization only</source>
+        <translation>For anonymization only</translation>
+    </message>
+    <message>
+        <location filename="../askpassphrasedialog.cpp" line="+43"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</translation>
     </message>
@@ -175,18 +183,12 @@
         <translation>Encrypt wallet</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <location line="+8"/>
+        <location line="+6"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>This operation needs your wallet passphrase to unlock the wallet.</translation>
     </message>
     <message>
-        <location line="-3"/>
-        <source>Unlock wallet for mixing only</source>
-        <translation>Unlock wallet for mixing only</translation>
-    </message>
-    <message>
-        <location line="+8"/>
+        <location line="+5"/>
         <source>Unlock wallet</source>
         <translation>Unlock wallet</translation>
     </message>
@@ -207,11 +209,11 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>Enter the old passphrase and new passphrase to the wallet.</translation>
+        <source>Enter the old and new passphrase to the wallet.</source>
+        <translation>Enter the old and new passphrase to the wallet.</translation>
     </message>
     <message>
-        <location line="+44"/>
+        <location line="+46"/>
         <source>Confirm wallet encryption</source>
         <translation>Confirm wallet encryption</translation>
     </message>
@@ -226,30 +228,23 @@
         <translation>Are you sure you wish to encrypt your wallet?</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <location line="+12"/>
-        <location line="+60"/>
+        <location line="+9"/>
+        <location line="+59"/>
         <source>Wallet encrypted</source>
         <translation>Wallet encrypted</translation>
     </message>
     <message>
-        <location line="-70"/>
-        <location line="+12"/>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your funds from being stolen by malware infecting your computer.</source>
-        <translation>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your funds from being stolen by malware infecting your computer.</translation>
+        <location line="-57"/>
+        <source>Dash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dashs from being stolen by malware infecting your computer.</source>
+        <translation>Dash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dashs from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
-        <location line="-8"/>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. Previous backups of the unencrypted wallet file contain the same HD seed and still have full access to all your funds just like the new, encrypted wallet.</source>
-        <translation>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. Previous backups of the unencrypted wallet file contain the same HD seed and still have full access to all your funds just like the new, encrypted wallet.</translation>
-    </message>
-    <message>
-        <location line="+12"/>
+        <location line="+4"/>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+9"/>
         <location line="+7"/>
         <location line="+43"/>
         <location line="+6"/>
@@ -297,32 +292,15 @@
     </message>
 </context>
 <context>
-    <name>BanTableModel</name>
-    <message>
-        <location filename="../bantablemodel.cpp" line="+89"/>
-        <source>IP/Netmask</source>
-        <translation>IP/Netmask</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Banned Until</source>
-        <translation>Banned Until</translation>
-    </message>
-</context>
-<context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../dash.cpp" line="+558"/>
-        <source>A fatal error occurred. Dash Core can no longer continue safely and will quit.</source>
-        <translation>A fatal error occurred. Dash Core can no longer continue safely and will quit.</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="+1127"/>
+        <location filename="../bitcoingui.cpp" line="+108"/>
+        <location line="+752"/>
         <source>Dash Core</source>
         <translation>Dash Core</translation>
     </message>
     <message>
-        <location line="-984"/>
+        <location line="-743"/>
         <source>Wallet</source>
         <translation>Wallet</translation>
     </message>
@@ -332,7 +310,7 @@
         <translation>Node</translation>
     </message>
     <message>
-        <location line="+147"/>
+        <location line="+144"/>
         <source>&amp;Overview</source>
         <translation>&amp;Overview</translation>
     </message>
@@ -352,7 +330,7 @@
         <translation>Send coins to a Dash address</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+10"/>
         <source>&amp;Receive</source>
         <translation>&amp;Receive</translation>
     </message>
@@ -362,7 +340,7 @@
         <translation>Request payments (generates QR codes and dash: URIs)</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+10"/>
         <source>&amp;Transactions</source>
         <translation>&amp;Transactions</translation>
     </message>
@@ -372,17 +350,7 @@
         <translation>Browse transaction history</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>&amp;Masternodes</source>
-        <translation>&amp;Masternodes</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Browse masternodes</source>
-        <translation>Browse masternodes</translation>
-    </message>
-    <message>
-        <location line="+29"/>
+        <location line="+23"/>
         <source>E&amp;xit</source>
         <translation>E&amp;xit</translation>
     </message>
@@ -392,17 +360,23 @@
         <translation>Quit application</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+3"/>
+        <source>&amp;About Dash Core</source>
+        <translation>&amp;About Dash Core</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Show information about Dash Core</source>
         <translation>Show information about Dash Core</translation>
     </message>
     <message>
         <location line="+3"/>
+        <location line="+2"/>
         <source>About &amp;Qt</source>
         <translation>About &amp;Qt</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+2"/>
         <source>Show information about Qt</source>
         <translation>Show information about Qt</translation>
     </message>
@@ -412,17 +386,12 @@
         <translation>&amp;Options...</translation>
     </message>
     <message>
-        <location line="-7"/>
-        <source>&amp;About %1</source>
-        <translation>&amp;About %1</translation>
+        <location line="+1"/>
+        <source>Modify configuration options for Dash</source>
+        <translation>Modify configuration options for Dash</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Modify configuration options for %1</source>
-        <translation>Modify configuration options for %1</translation>
-    </message>
-    <message>
-        <location line="+3"/>
+        <location line="+2"/>
         <source>&amp;Show / Hide</source>
         <translation>&amp;Show / Hide</translation>
     </message>
@@ -548,23 +517,13 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Open Wallet &amp;Configuration File</source>
-        <translation>Open Wallet &amp;Configuration File</translation>
+        <source>Open &amp;Configuration File</source>
+        <translation>Open &amp;Configuration File</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Open configuration file</source>
         <translation>Open configuration file</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Open &amp;Masternode Configuration File</source>
-        <translation>Open &amp;Masternode Configuration File</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Open Masternode configuration file</source>
-        <translation>Open Masternode configuration file</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -577,7 +536,7 @@
         <translation>Show automatically created wallet backups</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+2"/>
         <source>&amp;Sending addresses...</source>
         <translation>&amp;Sending addresses...</translation>
     </message>
@@ -612,27 +571,27 @@
         <translation>&amp;Command-line options</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Show the %1 help message to get a list with possible Dash command-line options</source>
-        <translation>Show the %1 help message to get a list with possible Dash command-line options</translation>
+        <location line="+196"/>
+        <source>Dash Core client</source>
+        <translation>Dash Core client</translation>
+    </message>
+    <message numerus="yes">
+        <location line="+182"/>
+        <source>Processed %n blocks of transaction history.</source>
+        <translation><numerusform>Processed %n block of transaction history.</numerusform><numerusform>Processed %n blocks of transaction history.</numerusform></translation>
     </message>
     <message>
-        <location line="+290"/>
-        <source>%1 client</source>
-        <translation>%1 client</translation>
+        <location line="+31"/>
+        <source>Synchronizing additional data: %p%</source>
+        <translation>Synchronizing additional data: %p%</translation>
     </message>
     <message>
-        <location line="-288"/>
-        <source>&amp;PrivateSend information</source>
-        <translation>&amp;PrivateSend information</translation>
+        <location line="-407"/>
+        <source>Show the Dash Core help message to get a list with possible Dash command-line options</source>
+        <translation>Show the Dash Core help message to get a list with possible Dash command-line options</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Show the PrivateSend basic information</source>
-        <translation>Show the PrivateSend basic information</translation>
-    </message>
-    <message>
-        <location line="+62"/>
+        <location line="+36"/>
         <source>&amp;File</source>
         <translation>&amp;File</translation>
     </message>
@@ -647,68 +606,73 @@
         <translation>&amp;Tools</translation>
     </message>
     <message>
-        <location line="+12"/>
+        <location line="+11"/>
         <source>&amp;Help</source>
         <translation>&amp;Help</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+11"/>
         <source>Tabs toolbar</source>
         <translation>Tabs toolbar</translation>
     </message>
     <message numerus="yes">
-        <location line="+372"/>
+        <location line="+256"/>
         <source>%n active connection(s) to Dash network</source>
-        <translation>
-            <numerusform>%n active connection to Dash network</numerusform>
-            <numerusform>%n active connections to Dash network</numerusform>
-        </translation>
+        <translation><numerusform>%n active connection to Dash network</numerusform><numerusform>%n active connections to Dash network</numerusform></translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Network activity disabled</source>
-        <translation>Network activity disabled</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Syncing Headers (%1%)...</source>
-        <translation>Syncing Headers (%1%)...</translation>
-    </message>
-    <message>
-        <location line="+26"/>
+        <location line="+15"/>
         <source>Synchronizing with network...</source>
         <translation>Synchronizing with network...</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Indexing blocks on disk...</source>
-        <translation>Indexing blocks on disk...</translation>
+        <location line="+3"/>
+        <source>Importing blocks from disk...</source>
+        <translation>Importing blocks from disk...</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Processing blocks on disk...</source>
-        <translation>Processing blocks on disk...</translation>
-    </message>
-    <message>
-        <location line="+4"/>
+        <location line="+3"/>
         <source>Reindexing blocks on disk...</source>
         <translation>Reindexing blocks on disk...</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Connecting to peers...</source>
-        <translation>Connecting to peers...</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+9"/>
-        <source>Processed %n block(s) of transaction history.</source>
-        <translation>
-            <numerusform>Processed %n block of transaction history.</numerusform>
-            <numerusform>Processed %n blocks of transaction history.</numerusform>
-        </translation>
+        <location line="+4"/>
+        <source>No block source available...</source>
+        <translation>No block source available...</translation>
     </message>
     <message>
-        <location line="+26"/>
+        <location line="+18"/>
+        <source>Up to date</source>
+        <translation>Up to date</translation>
+    </message>
+    <message numerus="yes">
+        <location line="+42"/>
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n hour</numerusform><numerusform>%n hours</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <location line="+4"/>
+        <source>%n day(s)</source>
+        <translation><numerusform>%n day</numerusform><numerusform>%n days</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <location line="+4"/>
+        <location line="+6"/>
+        <source>%n week(s)</source>
+        <translation><numerusform>%n week</numerusform><numerusform>%n weeks</numerusform></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>%1 and %2</source>
+        <translation>%1 and %2</translation>
+    </message>
+    <message numerus="yes">
+        <location line="+0"/>
+        <source>%n year(s)</source>
+        <translation><numerusform>%n year</numerusform><numerusform>%n years</numerusform></translation>
+    </message>
+    <message>
+        <location line="+4"/>
         <source>%1 behind</source>
         <translation>%1 behind</translation>
     </message>
@@ -718,7 +682,7 @@
         <translation>Catching up...</translation>
     </message>
     <message>
-        <location line="+18"/>
+        <location line="+16"/>
         <source>Last received block was generated %1 ago.</source>
         <translation>Last received block was generated %1 ago.</translation>
     </message>
@@ -728,17 +692,7 @@
         <translation>Transactions after this will not yet be visible.</translation>
     </message>
     <message>
-        <location line="+29"/>
-        <source>Up to date</source>
-        <translation>Up to date</translation>
-    </message>
-    <message>
-        <location line="+18"/>
-        <source>Synchronizing additional data: %p%</source>
-        <translation>Synchronizing additional data: %p%</translation>
-    </message>
-    <message>
-        <location line="+33"/>
+        <location line="+27"/>
         <source>Error</source>
         <translation>Error</translation>
     </message>
@@ -753,42 +707,7 @@
         <translation>Information</translation>
     </message>
     <message>
-        <location line="+95"/>
-        <source>Date: %1
-</source>
-        <translation>Date: %1
-</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Amount: %1
-</source>
-        <translation>Amount: %1
-</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Type: %1
-</source>
-        <translation>Type: %1
-</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Label: %1
-</source>
-        <translation>Label: %1
-</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Address: %1
-</source>
-        <translation>Address: %1
-</translation>
-    </message>
-    <message>
-        <location line="+1"/>
+        <location line="+74"/>
         <source>Sent transaction</source>
         <translation>Sent transaction</translation>
     </message>
@@ -798,24 +717,27 @@
         <translation>Incoming transaction</translation>
     </message>
     <message>
-        <location line="+54"/>
-        <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
-        <translation>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</translation>
+        <location line="+1"/>
+        <source>Date: %1
+Amount: %2
+Type: %3
+Address: %4
+</source>
+        <translation>Date: %1
+Amount: %2
+Type: %3
+Address: %4
+</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
-        <translation>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location line="+22"/>
+        <location line="+70"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for mixing only</source>
-        <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for mixing only</translation>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization only</source>
+        <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization only</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -826,12 +748,12 @@
 <context>
     <name>ClientModel</name>
     <message>
-        <location filename="../clientmodel.cpp" line="+86"/>
-        <source>Total: %1 (PS compatible: %2 / Enabled: %3)</source>
-        <translation>Total: %1 (PS compatible: %2 / Enabled: %3)</translation>
+        <location filename="../clientmodel.cpp" line="+73"/>
+        <source>Total: %1 (DS compatible: %2 / Enabled: %3)</source>
+        <translation>Total: %1 (DS compatible: %2 / Enabled: %3)</translation>
     </message>
     <message>
-        <location line="+126"/>
+        <location line="+107"/>
         <source>Network Alert</source>
         <translation>Network Alert</translation>
     </message>
@@ -854,22 +776,27 @@
         <translation>Amount:</translation>
     </message>
     <message>
-        <location line="+80"/>
+        <location line="+29"/>
+        <source>Priority:</source>
+        <translation>Priority:</translation>
+    </message>
+    <message>
+        <location line="+45"/>
         <source>Fee:</source>
         <translation>Fee:</translation>
     </message>
     <message>
-        <location line="-188"/>
+        <location line="-182"/>
         <source>Coin Selection</source>
         <translation>Coin Selection</translation>
     </message>
     <message>
-        <location line="+140"/>
+        <location line="+214"/>
         <source>Dust:</source>
         <translation>Dust:</translation>
     </message>
     <message>
-        <location line="+93"/>
+        <location line="+48"/>
         <source>After Fee:</source>
         <translation>After Fee:</translation>
     </message>
@@ -882,11 +809,6 @@
         <location line="+56"/>
         <source>(un)select all</source>
         <translation>(un)select all</translation>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>toggle lock state</source>
-        <translation>toggle lock state</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -920,8 +842,8 @@
     </message>
     <message>
         <location line="+5"/>
-        <source>PS Rounds</source>
-        <translation>PS Rounds</translation>
+        <source>DS Rounds</source>
+        <translation>DS Rounds</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -939,7 +861,12 @@
         <translation>Confirmed</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="+62"/>
+        <location line="+5"/>
+        <source>Priority</source>
+        <translation>Priority</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="+49"/>
         <source>Copy address</source>
         <translation>Copy address</translation>
     </message>
@@ -991,6 +918,11 @@
     </message>
     <message>
         <location line="+1"/>
+        <source>Copy priority</source>
+        <translation>Copy priority</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Copy dust</source>
         <translation>Copy dust</translation>
     </message>
@@ -1000,43 +932,121 @@
         <translation>Copy change</translation>
     </message>
     <message>
-        <location line="+148"/>
-        <source>Please switch to &quot;List mode&quot; to use this function.</source>
-        <translation>Please switch to &quot;List mode&quot; to use this function.</translation>
+        <location line="+329"/>
+        <source>Non-anonymized input selected. &lt;b&gt;Darksend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Darksend, please deselect all non-nonymized inputs first and then check Darksend checkbox again.</source>
+        <translation>Non-anonymized input selected. &lt;b&gt;Darksend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Darksend, please deselect all non-nonymized inputs first and then check Darksend checkbox again.</translation>
     </message>
     <message>
-        <location line="+196"/>
-        <source>Non-anonymized input selected. &lt;b&gt;PrivateSend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use PrivateSend, please deselect all non-nonymized inputs first and then check PrivateSend checkbox again.</source>
-        <translation>Non-anonymized input selected. &lt;b&gt;PrivateSend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use PrivateSend, please deselect all non-nonymized inputs first and then check PrivateSend checkbox again.</translation>
+        <location line="+32"/>
+        <source>highest</source>
+        <translation>highest</translation>
     </message>
     <message>
-        <location line="+29"/>
-        <source>(%1 locked)</source>
-        <translation>(%1 locked)</translation>
+        <location line="+1"/>
+        <source>higher</source>
+        <translation>higher</translation>
     </message>
     <message>
-        <location line="+177"/>
-        <source>yes</source>
-        <translation>yes</translation>
+        <location line="+1"/>
+        <source>high</source>
+        <translation>high</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>no</source>
-        <translation>no</translation>
+        <location line="+1"/>
+        <source>medium-high</source>
+        <translation>medium-high</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
-        <translation>This label turns red if any recipient receives an amount smaller than the current dust threshold.</translation>
-    </message>
-    <message>
-        <location line="+9"/>
+        <location line="+216"/>
         <source>Can vary +/- %1 duff(s) per input.</source>
         <translation>Can vary +/- %1 duff(s) per input.</translation>
     </message>
     <message>
-        <location line="+43"/>
-        <location line="+56"/>
+        <location line="+132"/>
+        <source>n/a</source>
+        <translation>n/a</translation>
+    </message>
+    <message>
+        <location filename="../forms/coincontroldialog.ui" line="-318"/>
+        <location filename="../coincontroldialog.cpp" line="-347"/>
+        <source>medium</source>
+        <translation>medium</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="+1"/>
+        <source>low-medium</source>
+        <translation>low-medium</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>low</source>
+        <translation>low</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>lower</source>
+        <translation>lower</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>lowest</source>
+        <translation>lowest</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>(%1 locked)</source>
+        <translation>(%1 locked)</translation>
+    </message>
+    <message>
+        <location line="+28"/>
+        <source>none</source>
+        <translation>none</translation>
+    </message>
+    <message>
+        <location line="+141"/>
+        <source>yes</source>
+        <translation>yes</translation>
+    </message>
+    <message>
+        <location filename="../forms/coincontroldialog.ui" line="+80"/>
+        <location filename="../coincontroldialog.cpp" line="+0"/>
+        <source>no</source>
+        <translation>no</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="+16"/>
+        <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
+        <translation>This label turns red, if the transaction size is greater than 1000 bytes.</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location line="+5"/>
+        <source>This means a fee of at least %1 per kB is required.</source>
+        <translation>This means a fee of at least %1 per kB is required.</translation>
+    </message>
+    <message>
+        <location line="-4"/>
+        <source>Can vary +/- 1 byte per input.</source>
+        <translation>Can vary +/- 1 byte per input.</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Transactions with higher priority are more likely to get included into a block.</source>
+        <translation>Transactions with higher priority are more likely to get included into a block.</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>This label turns red, if the priority is smaller than &quot;medium&quot;.</source>
+        <translation>This label turns red, if the priority is smaller than &quot;medium&quot;.</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
+        <translation>This label turns red, if any recipient receives an amount smaller than %1.</translation>
+    </message>
+    <message>
+        <location line="+55"/>
+        <location line="+65"/>
         <source>(no label)</source>
         <translation>(no label)</translation>
     </message>
@@ -1050,18 +1060,13 @@
         <source>(change)</source>
         <translation>(change)</translation>
     </message>
-    <message>
-        <location line="+26"/>
-        <source>n/a</source>
-        <translation>n/a</translation>
-    </message>
 </context>
 <context>
     <name>DarksendConfig</name>
     <message>
         <location filename="../forms/darksendconfig.ui" line="+14"/>
-        <source>Configure PrivateSend</source>
-        <translation>Configure PrivateSend</translation>
+        <source>Configure Darksend</source>
+        <translation>Configure Darksend</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -1122,23 +1127,23 @@
         <location filename="../darksendconfig.cpp" line="+43"/>
         <location line="+15"/>
         <location line="+15"/>
-        <source>PrivateSend Configuration</source>
-        <translation>PrivateSend Configuration</translation>
+        <source>Darksend Configuration</source>
+        <translation>Darksend Configuration</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Dash&apos;s configuration screen.</source>
-        <translation>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Dash&apos;s configuration screen.</translation>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Dash&apos;s configuration screen.</source>
+        <translation>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Dash&apos;s configuration screen.</translation>
     </message>
     <message>
         <location line="+15"/>
-        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Dash&apos;s configuration screen.</source>
-        <translation>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Dash&apos;s configuration screen.</translation>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Dash&apos;s configuration screen.</source>
+        <translation>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Dash&apos;s configuration screen.</translation>
     </message>
     <message>
         <location line="+15"/>
-        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Dash&apos;s configuration screen.</source>
-        <translation>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Dash&apos;s configuration screen.</translation>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Dash&apos;s configuration screen.</source>
+        <translation>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Dash&apos;s configuration screen.</translation>
     </message>
 </context>
 <context>
@@ -1212,7 +1217,7 @@
 <context>
     <name>FreespaceChecker</name>
     <message>
-        <location filename="../intro.cpp" line="+79"/>
+        <location filename="../intro.cpp" line="+69"/>
         <source>A new data directory will be created.</source>
         <translation>A new data directory will be created.</translation>
     </message>
@@ -1240,7 +1245,12 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <location filename="../utilitydialog.cpp" line="+41"/>
+        <location filename="../utilitydialog.cpp" line="+32"/>
+        <source>Dash Core</source>
+        <translation>Dash Core</translation>
+    </message>
+    <message>
+        <location line="+0"/>
         <source>version</source>
         <translation>version</translation>
     </message>
@@ -1252,11 +1262,11 @@
     </message>
     <message>
         <location line="+5"/>
-        <source>About %1</source>
-        <translation>About %1</translation>
+        <source>About Dash Core</source>
+        <translation>About Dash Core</translation>
     </message>
     <message>
-        <location line="+20"/>
+        <location line="+19"/>
         <source>Command-line options</source>
         <translation>Command-line options</translation>
     </message>
@@ -1271,14 +1281,14 @@
         <translation>command-line options</translation>
     </message>
     <message>
-        <location line="+9"/>
-        <source>UI Options:</source>
-        <translation>UI Options:</translation>
+        <location line="+4"/>
+        <source>UI options</source>
+        <translation>UI options</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Choose data directory on startup (default: %u)</source>
-        <translation>Choose data directory on startup (default: %u)</translation>
+        <location line="+1"/>
+        <source>Choose data directory on startup (default: 0)</source>
+        <translation>Choose data directory on startup (default: 0)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1297,23 +1307,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Show splash screen on startup (default: %u)</source>
-        <translation>Show splash screen on startup (default: %u)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Reset all settings changed in the GUI</source>
-        <translation>Reset all settings changed in the GUI</translation>
-    </message>
-    <message>
-        <location line="+42"/>
-        <source>PrivateSend information</source>
-        <translation>PrivateSend information</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Dash in your wallet is comprised of different &quot;inputs&quot; which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times.&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type=&quot;1&quot;&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 DASH, 0.1 DASH, 1 DASH and 10 DASH -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called &quot;masternodes.&quot; These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know &quot;who&quot; you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users&apos; wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it&apos;s called a &quot;round.&quot; Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these &quot;change addresses.&quot; Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href=&quot;https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend&quot;&gt;https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
-        <translation>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Dash in your wallet is comprised of different &quot;inputs&quot; which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times.&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type=&quot;1&quot;&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 DASH, 0.1 DASH, 1 DASH and 10 DASH -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called &quot;masternodes.&quot; These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know &quot;who&quot; you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users&apos; wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it&apos;s called a &quot;round.&quot; Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these &quot;change addresses.&quot; Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href=&quot;https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend&quot;&gt;https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </translation>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>Show splash screen on startup (default: 1)</translation>
     </message>
 </context>
 <context>
@@ -1325,18 +1320,18 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to %1.</source>
-        <translation>Welcome to %1.</translation>
+        <source>Welcome to Dash Core.</source>
+        <translation>Welcome to Dash Core.</translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
-        <translation>As this is the first time the program is launched, you can choose where %1 will store its data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Dash Core will store its data.</source>
+        <translation>As this is the first time the program is launched, you can choose where Dash Core will store its data.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>%1 will download and store a copy of the Dash block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 will download and store a copy of the Dash block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
+        <source>Dash Core will download and store a copy of the Dash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Dash Core will download and store a copy of the Dash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1349,12 +1344,17 @@
         <translation>Use a custom data directory:</translation>
     </message>
     <message>
-        <location filename="../intro.cpp" line="+96"/>
+        <location filename="../intro.cpp" line="+82"/>
+        <source>Dash Core</source>
+        <translation>Dash Core</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Error: Specified data directory &quot;%1&quot; cannot be created.</source>
         <translation>Error: Specified data directory &quot;%1&quot; cannot be created.</translation>
     </message>
     <message>
-        <location line="+26"/>
+        <location line="+24"/>
         <source>Error</source>
         <translation>Error</translation>
     </message>
@@ -1367,284 +1367,6 @@
         <location line="+3"/>
         <source>(of %1 GB needed)</source>
         <translation>(of %1 GB needed)</translation>
-    </message>
-</context>
-<context>
-    <name>MasternodeList</name>
-    <message>
-        <location filename="../forms/masternodelist.ui" line="+14"/>
-        <source>Form</source>
-        <translation>Form</translation>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>My Masternodes</source>
-        <translation>My Masternodes</translation>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>Note: Status of your masternodes in local wallet can potentially be slightly incorrect.&lt;br /&gt;Always wait for wallet to sync additional data and then double check from another node&lt;br /&gt;if your masternode should be running but you still do not see &quot;ENABLED&quot; in &quot;Status&quot; field.</source>
-        <translation>Note: Status of your masternodes in local wallet can potentially be slightly incorrect.&lt;br /&gt;Always wait for wallet to sync additional data and then double check from another node&lt;br /&gt;if your masternode should be running but you still do not see &quot;ENABLED&quot; in &quot;Status&quot; field.</translation>
-    </message>
-    <message>
-        <location line="+34"/>
-        <location filename="../masternodelist.cpp" line="+493"/>
-        <source>Alias</source>
-        <translation>Alias</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <location line="+130"/>
-        <source>Address</source>
-        <translation>Address</translation>
-    </message>
-    <message>
-        <location line="-125"/>
-        <location line="+130"/>
-        <location filename="../masternodelist.cpp" line="+5"/>
-        <source>Protocol</source>
-        <translation>Protocol</translation>
-    </message>
-    <message>
-        <location line="-125"/>
-        <location line="+130"/>
-        <location filename="../masternodelist.cpp" line="+3"/>
-        <source>Status</source>
-        <translation>Status</translation>
-    </message>
-    <message>
-        <location line="-125"/>
-        <location line="+130"/>
-        <location filename="../masternodelist.cpp" line="+2"/>
-        <source>Active</source>
-        <translation>Active</translation>
-    </message>
-    <message>
-        <location line="-125"/>
-        <location line="+130"/>
-        <location filename="../masternodelist.cpp" line="+1"/>
-        <source>Last Seen</source>
-        <translation>Last Seen</translation>
-    </message>
-    <message>
-        <location line="-125"/>
-        <location line="+130"/>
-        <location filename="../masternodelist.cpp" line="-2"/>
-        <source>Payee</source>
-        <translation>Payee</translation>
-    </message>
-    <message>
-        <location line="-117"/>
-        <source>S&amp;tart alias</source>
-        <translation>S&amp;tart alias</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Start &amp;all</source>
-        <translation>Start &amp;all</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Start &amp;MISSING</source>
-        <translation>Start &amp;MISSING</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>&amp;Update status</source>
-        <translation>&amp;Update status</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Show additional Masternode information</source>
-        <translation>Show additional Masternode information</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Show &amp;Info...</source>
-        <translation>Show &amp;Info...</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Status will be updated automatically in (sec):</source>
-        <translation>Status will be updated automatically in (sec):</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <location line="+119"/>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <location line="-94"/>
-        <source>All Masternodes</source>
-        <translation>All Masternodes</translation>
-    </message>
-    <message>
-        <location line="+60"/>
-        <source>Filter List:</source>
-        <translation>Filter List:</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Filter masternode list</source>
-        <translation>Filter masternode list</translation>
-    </message>
-    <message>
-        <location line="+20"/>
-        <source>Node Count:</source>
-        <translation>Node Count:</translation>
-    </message>
-    <message>
-        <location filename="../masternodelist.cpp" line="-439"/>
-        <source>Start alias</source>
-        <translation>Start alias</translation>
-    </message>
-    <message>
-        <location line="+289"/>
-        <source>Confirm masternode start</source>
-        <translation>Confirm masternode start</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Are you sure you want to start masternode %1?</source>
-        <translation>Are you sure you want to start masternode %1?</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Confirm all masternodes start</source>
-        <translation>Confirm all masternodes start</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Are you sure you want to start ALL masternodes?</source>
-        <translation>Are you sure you want to start ALL masternodes?</translation>
-    </message>
-    <message>
-        <location line="+24"/>
-        <source>Command is not available right now</source>
-        <translation>Command is not available right now</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>You can&apos;t use this command until masternode list is synced</source>
-        <translation>You can&apos;t use this command until masternode list is synced</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Confirm missing masternodes start</source>
-        <translation>Confirm missing masternodes start</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Are you sure you want to start MISSING masternodes?</source>
-        <translation>Are you sure you want to start MISSING masternodes?</translation>
-    </message>
-    <message>
-        <location line="+77"/>
-        <source>Additional information for Masternode %1</source>
-        <translation>Additional information for Masternode %1</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Masternode Private Key</source>
-        <translation>Masternode Private Key</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Private Key</source>
-        <translation>Private Key</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Collateral</source>
-        <translation>Collateral</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>IP</source>
-        <translation>IP</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Version</source>
-        <translation>Version</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <location line="+1"/>
-        <source>Unknown</source>
-        <translation>Unknown</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Sentinel</source>
-        <translation>Sentinel</translation>
-    </message>
-</context>
-<context>
-    <name>ModalOverlay</name>
-    <message>
-        <location filename="../forms/modaloverlay.ui" line="+14"/>
-        <source>Form</source>
-        <translation>Form</translation>
-    </message>
-    <message>
-        <location line="+117"/>
-        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Dash network, as detailed below.</source>
-        <translation>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Dash network, as detailed below.</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>Attempting to spend Dash that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Attempting to spend Dash that are affected by not-yet-displayed transactions will not be accepted by the network.</translation>
-    </message>
-    <message>
-        <location line="+63"/>
-        <source>Number of blocks left</source>
-        <translation>Number of blocks left</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <location line="+26"/>
-        <location filename="../modaloverlay.cpp" line="+141"/>
-        <source>Unknown...</source>
-        <translation>Unknown...</translation>
-    </message>
-    <message>
-        <location line="-13"/>
-        <source>Last block time</source>
-        <translation>Last block time</translation>
-    </message>
-    <message>
-        <location line="+26"/>
-        <source>Progress</source>
-        <translation>Progress</translation>
-    </message>
-    <message>
-        <location line="+34"/>
-        <source>Progress increase per hour</source>
-        <translation>Progress increase per hour</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <location line="+20"/>
-        <source>calculating...</source>
-        <translation>calculating...</translation>
-    </message>
-    <message>
-        <location line="-7"/>
-        <source>Estimated time left until synced</source>
-        <translation>Estimated time left until synced</translation>
-    </message>
-    <message>
-        <location line="+37"/>
-        <source>Hide</source>
-        <translation>Hide</translation>
-    </message>
-    <message>
-        <location filename="../modaloverlay.cpp" line="-1"/>
-        <source>Unknown. Syncing Headers (%1)...</source>
-        <translation>Unknown. Syncing Headers (%1)...</translation>
     </message>
 </context>
 <context>
@@ -1688,7 +1410,17 @@
         <translation>&amp;Main</translation>
     </message>
     <message>
-        <location line="+18"/>
+        <location line="+6"/>
+        <source>Automatically start Dash after logging in to the system.</source>
+        <translation>Automatically start Dash after logging in to the system.</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>&amp;Start Dash on system login</source>
+        <translation>&amp;Start Dash on system login</translation>
+    </message>
+    <message>
+        <location line="+9"/>
         <source>Size of &amp;database cache</source>
         <translation>Size of &amp;database cache</translation>
     </message>
@@ -1708,77 +1440,32 @@
         <translation>(0 = auto, &lt;0 = leave that many cores free)</translation>
     </message>
     <message>
-        <location line="+155"/>
+        <location line="+40"/>
+        <source>Darksend rounds to use</source>
+        <translation>Darksend rounds to use</translation>
+    </message>
+    <message>
+        <location line="+24"/>
+        <source>This amount acts as a threshold to turn off Darksend once it&apos;s reached.</source>
+        <translation>This amount acts as a threshold to turn off Darksend once it&apos;s reached.</translation>
+    </message>
+    <message>
+        <location line="+15"/>
         <source>Amount of Dash to keep anonymized</source>
         <translation>Amount of Dash to keep anonymized</translation>
     </message>
     <message>
-        <location line="-119"/>
+        <location line="+26"/>
         <source>W&amp;allet</source>
         <translation>W&amp;allet</translation>
     </message>
     <message>
         <location line="+22"/>
-        <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
-        <translation>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Show Masternodes Tab</source>
-        <translation>Show Masternodes Tab</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Show additional information and buttons for PrivateSend on overview screen.</source>
-        <translation>Show additional information and buttons for PrivateSend on overview screen.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Enable advanced PrivateSend interface</source>
-        <translation>Enable advanced PrivateSend interface</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Show warning dialog when PrivateSend detects that wallet has very low number of keys left.</source>
-        <translation>Show warning dialog when PrivateSend detects that wallet has very low number of keys left.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Warn if PrivateSend is running out of keys</source>
-        <translation>Warn if PrivateSend is running out of keys</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Whether to use experimental PrivateSend mode with multiple mixing sessions per block.&lt;br/&gt;Note: You must use this feature carefully.&lt;br/&gt;Make sure you always have recent wallet (auto)backup in a safe place!</source>
-        <translation>Whether to use experimental PrivateSend mode with multiple mixing sessions per block.&lt;br/&gt;Note: You must use this feature carefully.&lt;br/&gt;Make sure you always have recent wallet (auto)backup in a safe place!</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Enable PrivateSend &amp;multi-session</source>
-        <translation>Enable PrivateSend &amp;multi-session</translation>
-    </message>
-    <message>
-        <location line="+7"/>
         <source>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</source>
         <translation>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</translation>
     </message>
     <message>
-        <location line="+18"/>
-        <source>PrivateSend rounds to use</source>
-        <translation>PrivateSend rounds to use</translation>
-    </message>
-    <message>
-        <location line="+24"/>
-        <source>This amount acts as a threshold to turn off PrivateSend once it&apos;s reached.</source>
-        <translation>This amount acts as a threshold to turn off PrivateSend once it&apos;s reached.</translation>
-    </message>
-    <message>
-        <location line="+60"/>
-        <source>Automatically open the Dash Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Dash Core client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
-    </message>
-    <message>
-        <location line="+10"/>
+        <location line="+43"/>
         <source>Accept connections from outside</source>
         <translation>Accept connections from outside</translation>
     </message>
@@ -1798,139 +1485,72 @@
         <translation>&amp;Connect through SOCKS5 proxy (default proxy):</translation>
     </message>
     <message>
-        <location line="+315"/>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</translation>
-    </message>
-    <message>
-        <location line="+144"/>
-        <location line="+13"/>
-        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items.&lt;br/&gt;%s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items.&lt;br/&gt;%s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</translation>
-    </message>
-    <message>
-        <location line="-653"/>
+        <location line="-72"/>
         <source>Expert</source>
         <translation>Expert</translation>
     </message>
     <message>
-        <location line="+71"/>
+        <location line="-74"/>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
         <translation>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</translation>
     </message>
     <message>
-        <location line="-65"/>
+        <location line="+80"/>
         <source>Whether to show coin control features or not.</source>
         <translation>Whether to show coin control features or not.</translation>
     </message>
     <message>
-        <location line="-116"/>
-        <source>Automatically start %1 after logging in to the system.</source>
-        <translation>Automatically start %1 after logging in to the system.</translation>
-    </message>
-    <message>
         <location line="+3"/>
-        <source>&amp;Start %1 on system login</source>
-        <translation>&amp;Start %1 on system login</translation>
-    </message>
-    <message>
-        <location line="+116"/>
         <source>Enable coin &amp;control features</source>
         <translation>Enable coin &amp;control features</translation>
     </message>
     <message>
-        <location line="+50"/>
+        <location line="+10"/>
         <source>&amp;Spend unconfirmed change</source>
         <translation>&amp;Spend unconfirmed change</translation>
     </message>
     <message>
-        <location line="+93"/>
+        <location line="+24"/>
         <source>&amp;Network</source>
         <translation>&amp;Network</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+6"/>
+        <source>Automatically open the Dash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Dash client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Map port using &amp;UPnP</source>
         <translation>Map port using &amp;UPnP</translation>
     </message>
     <message>
         <location line="+29"/>
-        <location line="+187"/>
         <source>Proxy &amp;IP:</source>
         <translation>Proxy &amp;IP:</translation>
     </message>
     <message>
-        <location line="-162"/>
-        <location line="+187"/>
+        <location line="+25"/>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
         <translation>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
-        <location line="-180"/>
-        <location line="+187"/>
+        <location line="+7"/>
         <source>&amp;Port:</source>
         <translation>&amp;Port:</translation>
     </message>
     <message>
-        <location line="-162"/>
-        <location line="+187"/>
+        <location line="+25"/>
         <source>Port of the proxy (e.g. 9050)</source>
         <translation>Port of the proxy (e.g. 9050)</translation>
     </message>
     <message>
-        <location line="-163"/>
-        <source>Used for reaching peers via:</source>
-        <translation>Used for reaching peers via:</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <source>Shows, if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
-        <translation>Shows, if the supplied default SOCKS5 proxy is used to reach peers via this network type.</translation>
-    </message>
-    <message>
-        <location line="-36"/>
-        <source>IPv4</source>
-        <translation>IPv4</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>IPv6</source>
-        <translation>IPv6</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Tor</source>
-        <translation>Tor</translation>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>Connect to the Dash network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Connect to the Dash network through a separate SOCKS5 proxy for Tor hidden services.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
-        <translation>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</translation>
-    </message>
-    <message>
-        <location line="+102"/>
+        <location line="+36"/>
         <source>&amp;Window</source>
         <translation>&amp;Window</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>&amp;Hide the icon from the system tray.</source>
-        <translation>&amp;Hide the icon from the system tray.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Hide tray icon</source>
-        <translation>Hide tray icon</translation>
-    </message>
-    <message>
-        <location line="+7"/>
         <source>Show only a tray icon after minimizing the window.</source>
         <translation>Show only a tray icon after minimizing the window.</translation>
     </message>
@@ -1940,7 +1560,12 @@
         <translation>&amp;Minimize to the tray instead of the taskbar</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+7"/>
+        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
+        <translation>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>M&amp;inimize on close</source>
         <translation>M&amp;inimize on close</translation>
     </message>
@@ -1956,8 +1581,8 @@
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting %1.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Dash.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting Dash.</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1987,7 +1612,13 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Decimal digits</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+14"/>
+        <location line="+13"/>
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</translation>
+    </message>
+    <message>
+        <location line="-10"/>
         <source>Third party transaction URLs</source>
         <translation>Third party transaction URLs</translation>
     </message>
@@ -2017,38 +1648,38 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>&amp;Cancel</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="+108"/>
+        <location filename="../optionsdialog.cpp" line="+91"/>
         <source>default</source>
         <translation>default</translation>
     </message>
     <message>
-        <location line="+64"/>
+        <location line="+60"/>
         <source>none</source>
         <translation>none</translation>
     </message>
     <message>
-        <location line="+84"/>
+        <location line="+87"/>
         <source>Confirm options reset</source>
         <translation>Confirm options reset</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location line="+48"/>
+        <location line="+31"/>
         <source>Client restart required to activate changes.</source>
         <translation>Client restart required to activate changes.</translation>
     </message>
     <message>
-        <location line="-48"/>
-        <source>Client will be shut down. Do you want to proceed?</source>
-        <translation>Client will be shut down. Do you want to proceed?</translation>
+        <location line="-31"/>
+        <source>Client will be shutdown, do you want to proceed?</source>
+        <translation>Client will be shutdown, do you want to proceed?</translation>
     </message>
     <message>
-        <location line="+52"/>
+        <location line="+35"/>
         <source>This change would require a client restart.</source>
         <translation>This change would require a client restart.</translation>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="+25"/>
         <source>The supplied proxy address is invalid.</source>
         <translation>The supplied proxy address is invalid.</translation>
     </message>
@@ -2062,13 +1693,13 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+53"/>
-        <location line="+355"/>
-        <location line="+258"/>
+        <location line="+1015"/>
+        <location line="+77"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dash network after a connection is established, but this process has not completed yet.</source>
         <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Dash network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
-        <location line="-364"/>
+        <location line="-843"/>
         <source>Available:</source>
         <translation>Available:</translation>
     </message>
@@ -2098,12 +1729,12 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Mined balance that has not yet matured</translation>
     </message>
     <message>
-        <location line="-160"/>
+        <location line="-163"/>
         <source>Balances</source>
         <translation>Balances</translation>
     </message>
     <message>
-        <location line="+52"/>
+        <location line="+55"/>
         <source>Unconfirmed transactions to watch-only addresses</source>
         <translation>Unconfirmed transactions to watch-only addresses</translation>
     </message>
@@ -2143,54 +1774,27 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Spendable:</translation>
     </message>
     <message>
-        <location line="+35"/>
-        <location filename="../overviewpage.cpp" line="+502"/>
-        <location line="+12"/>
-        <location line="+8"/>
-        <location line="+61"/>
-        <location line="+15"/>
-        <location line="+9"/>
-        <location line="+14"/>
-        <source>PrivateSend</source>
-        <translation>PrivateSend</translation>
-    </message>
-    <message>
-        <location line="+49"/>
+        <location line="+51"/>
         <source>Status:</source>
         <translation>Status:</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+78"/>
         <source>Enabled/Disabled</source>
         <translation>Enabled/Disabled</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-71"/>
         <source>Completion:</source>
         <translation>Completion:</translation>
     </message>
     <message>
-        <location line="+109"/>
-        <source>Try to manually submit a PrivateSend request.</source>
-        <translation>Try to manually submit a PrivateSend request.</translation>
+        <location line="+20"/>
+        <source>Darksend Balance:</source>
+        <translation>Darksend Balance:</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>Reset the current status of PrivateSend (can interrupt PrivateSend if it&apos;s in the process of Mixing, which can cost you money!)</source>
-        <translation>Reset the current status of PrivateSend (can interrupt PrivateSend if it&apos;s in the process of Mixing, which can cost you money!)</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>Information about PrivateSend and Mixing</source>
-        <translation>Information about PrivateSend and Mixing</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Info</source>
-        <translation>Info</translation>
-    </message>
-    <message>
-        <location line="-107"/>
+        <location line="+20"/>
         <source>Amount and Rounds:</source>
         <translation>Amount and Rounds:</translation>
     </message>
@@ -2210,93 +1814,102 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>n/a</translation>
     </message>
     <message>
-        <location line="+131"/>
+        <location line="+573"/>
+        <location filename="../overviewpage.cpp" line="+488"/>
+        <location line="+10"/>
+        <location line="+10"/>
+        <location line="+14"/>
+        <source>Darksend</source>
+        <translation>Darksend</translation>
+    </message>
+    <message>
+        <location line="+74"/>
         <source>Recent transactions</source>
         <translation>Recent transactions</translation>
     </message>
     <message>
-        <location line="-101"/>
+        <location line="-181"/>
         <source>Start/Stop Mixing</source>
         <translation>Start/Stop Mixing</translation>
     </message>
     <message>
-        <location line="-74"/>
-        <source>PrivateSend Balance:</source>
-        <translation>PrivateSend Balance:</translation>
-    </message>
-    <message>
-        <location line="+41"/>
+        <location line="-469"/>
         <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
         <translation>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+501"/>
         <source>(Last Message)</source>
         <translation>(Last Message)</translation>
     </message>
     <message>
-        <location line="+37"/>
+        <location line="+25"/>
+        <source>Try to manually submit a Darksend request.</source>
+        <translation>Try to manually submit a Darksend request.</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Try Mix</source>
         <translation>Try Mix</translation>
     </message>
     <message>
         <location line="+19"/>
+        <source>Reset the current status of Darksend (can interrupt Darksend if it&apos;s in the process of Mixing, which can cost you money!)</source>
+        <translation>Reset the current status of Darksend (can interrupt Darksend if it&apos;s in the process of Mixing, which can cost you money!)</translation>
+    </message>
+    <message>
+        <location line="+6"/>
         <source>Reset</source>
         <translation>Reset</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="-471"/>
+        <location filename="../overviewpage.cpp" line="-381"/>
         <location line="+1"/>
         <location line="+1"/>
         <source>out of sync</source>
         <translation>out of sync</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>Automatic backups are disabled, no mixing available!</source>
-        <translation>Automatic backups are disabled, no mixing available!</translation>
+        <location line="+6"/>
+        <location line="+1"/>
+        <location line="+1"/>
+        <location line="+292"/>
+        <source>Disabled</source>
+        <translation>Disabled</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <location line="+308"/>
-        <location line="+155"/>
-        <source>Start Mixing</source>
-        <translation>Start Mixing</translation>
+        <location line="-288"/>
+        <location line="+290"/>
+        <location line="+91"/>
+        <source>Start Darksend Mixing</source>
+        <translation>Start Darksend Mixing</translation>
     </message>
     <message>
-        <location line="-461"/>
-        <location line="+464"/>
-        <source>Stop Mixing</source>
-        <translation>Stop Mixing</translation>
+        <location line="-379"/>
+        <location line="+382"/>
+        <source>Stop Darksend Mixing</source>
+        <translation>Stop Darksend Mixing</translation>
     </message>
     <message>
-        <location line="-295"/>
+        <location line="-211"/>
         <location line="+6"/>
         <source>No inputs detected</source>
         <translation>No inputs detected</translation>
     </message>
     <message numerus="yes">
         <location line="-2"/>
-        <location line="+20"/>
+        <location line="+35"/>
         <location line="+10"/>
         <source>%n Rounds</source>
-        <translation>
-            <numerusform>%n Round</numerusform>
-            <numerusform>%n Rounds</numerusform>
-        </translation>
+        <translation><numerusform>%n Round</numerusform><numerusform>%n Rounds</numerusform></translation>
     </message>
     <message>
-        <location line="-13"/>
-        <source>Found enough compatible inputs to anonymize %1</source>
-        <translation>Found enough compatible inputs to anonymize %1</translation>
-    </message>
-    <message>
-        <location line="+6"/>
+        <location line="-7"/>
         <source>Not enough compatible inputs to anonymize &lt;span style=&apos;color:red;&apos;&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style=&apos;color:red;&apos;&gt;%2&lt;/span&gt; instead</source>
         <translation>Not enough compatible inputs to anonymize &lt;span style=&apos;color:red;&apos;&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style=&apos;color:red;&apos;&gt;%2&lt;/span&gt; instead</translation>
     </message>
     <message>
-        <location line="+58"/>
+        <location line="+46"/>
         <source>Overall progress</source>
         <translation>Overall progress</translation>
     </message>
@@ -2306,90 +1919,35 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Denominated</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Mixed</source>
-        <translation>Mixed</translation>
-    </message>
-    <message>
-        <location line="+1"/>
+        <location line="+2"/>
         <source>Anonymized</source>
         <translation>Anonymized</translation>
     </message>
     <message numerus="yes">
         <location line="+1"/>
         <source>Denominated inputs have %5 of %n rounds on average</source>
-        <translation>
-            <numerusform>Denominated inputs have %5 of %n round on average</numerusform>
-            <numerusform>Denominated inputs have %5 of %n rounds on average</numerusform>
-        </translation>
+        <translation><numerusform>Denominated inputs have %5 of %n rounds on average</numerusform><numerusform>Denominated inputs have %5 of %n rounds on average</numerusform></translation>
     </message>
     <message>
-        <location line="+35"/>
-        <source>keys left: %1</source>
-        <translation>keys left: %1</translation>
+        <location line="-56"/>
+        <source>Found enough compatible inputs to anonymize %1</source>
+        <translation>Found enough compatible inputs to anonymize %1</translation>
     </message>
     <message>
-        <location line="+15"/>
-        <location line="+48"/>
-        <location line="+140"/>
-        <location line="+1"/>
-        <location line="+1"/>
-        <location line="+3"/>
-        <source>Disabled</source>
-        <translation>Disabled</translation>
+        <location line="+54"/>
+        <source>Mixed</source>
+        <translation>Mixed</translation>
     </message>
     <message>
-        <location line="-180"/>
-        <source>Very low number of keys left since last automatic backup!</source>
-        <translation>Very low number of keys left since last automatic backup!</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>We are about to create a new automatic backup for you, however &lt;span style=&apos;color:red;&apos;&gt; you should always make sure you have backups saved in some safe place&lt;/span&gt;!</source>
-        <translation>We are about to create a new automatic backup for you, however &lt;span style=&apos;color:red;&apos;&gt; you should always make sure you have backups saved in some safe place&lt;/span&gt;!</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Note: You can turn this message off in options.</source>
-        <translation>Note: You can turn this message off in options.</translation>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>WARNING! Something went wrong on automatic backup</source>
-        <translation>WARNING! Something went wrong on automatic backup</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <location line="+16"/>
-        <source>ERROR! Failed to create automatic backup</source>
-        <translation>ERROR! Failed to create automatic backup</translation>
-    </message>
-    <message>
-        <location line="-15"/>
-        <location line="+17"/>
-        <source>Mixing is disabled, please close your wallet and fix the issue!</source>
-        <translation>Mixing is disabled, please close your wallet and fix the issue!</translation>
-    </message>
-    <message>
-        <location line="-11"/>
+        <location line="+40"/>
         <source>Enabled</source>
         <translation>Enabled</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>see debug.log for details.</source>
-        <translation>see debug.log for details.</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>WARNING! Failed to replenish keypool, please unlock your wallet to do so.</source>
-        <translation>WARNING! Failed to replenish keypool, please unlock your wallet to do so.</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>Last PrivateSend message:
+        <location line="+5"/>
+        <source>Last Darksend message:
 </source>
-        <translation>Last PrivateSend message:
+        <translation>Last Darksend message:
 </translation>
     </message>
     <message>
@@ -2398,45 +1956,45 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>N/A</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>PrivateSend was successfully reset.</source>
-        <translation>PrivateSend was successfully reset.</translation>
+        <location line="+18"/>
+        <source>Darksend was successfully reset.</source>
+        <translation>Darksend was successfully reset.</translation>
     </message>
     <message>
-        <location line="+15"/>
-        <source>If you don&apos;t want to see internal PrivateSend fees/transactions select &quot;Most Common&quot; as Type on the &quot;Transactions&quot; tab.</source>
-        <translation>If you don&apos;t want to see internal PrivateSend fees/transactions select &quot;Most Common&quot; as Type on the &quot;Transactions&quot; tab.</translation>
+        <location line="+10"/>
+        <source>If you don&apos;t want to see internal Darksend fees/transactions select &quot;Most Common&quot; as Type on the &quot;Transactions&quot; tab.</source>
+        <translation>If you don&apos;t want to see internal Darksend fees/transactions select &quot;Most Common&quot; as Type on the &quot;Transactions&quot; tab.</translation>
     </message>
     <message>
-        <location line="+9"/>
-        <source>PrivateSend requires at least %1 to use.</source>
-        <translation>PrivateSend requires at least %1 to use.</translation>
+        <location line="+10"/>
+        <source>Darksend requires at least %1 to use.</source>
+        <translation>Darksend requires at least %1 to use.</translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>Wallet is locked and user declined to unlock. Disabling PrivateSend.</source>
-        <translation>Wallet is locked and user declined to unlock. Disabling PrivateSend.</translation>
+        <source>Wallet is locked and user declined to unlock. Disabling Darksend.</source>
+        <translation>Wallet is locked and user declined to unlock. Disabling Darksend.</translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
-        <location filename="../paymentserver.cpp" line="+327"/>
-        <location line="+216"/>
-        <location line="+42"/>
-        <location line="+113"/>
+        <location filename="../paymentserver.cpp" line="+318"/>
+        <location line="+226"/>
+        <location line="+34"/>
+        <location line="+109"/>
         <location line="+14"/>
         <location line="+18"/>
         <source>Payment request error</source>
         <translation>Payment request error</translation>
     </message>
     <message>
-        <location line="-402"/>
+        <location line="-400"/>
         <source>Cannot start dash: click-to-pay handler</source>
         <translation>Cannot start dash: click-to-pay handler</translation>
     </message>
     <message>
-        <location line="+103"/>
+        <location line="+104"/>
         <location line="+14"/>
         <location line="+7"/>
         <source>URI handling</source>
@@ -2448,7 +2006,12 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Payment request fetch URL is invalid: %1</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+34"/>
+        <source>Payment request file handling</source>
+        <translation>Payment request file handling</translation>
+    </message>
+    <message>
+        <location line="-21"/>
         <source>Invalid payment address %1</source>
         <translation>Invalid payment address %1</translation>
     </message>
@@ -2458,37 +2021,29 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>URI cannot be parsed! This can be caused by an invalid Dash address or malformed URI parameters.</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>Payment request file handling</source>
-        <translation>Payment request file handling</translation>
-    </message>
-    <message>
-        <location line="+1"/>
+        <location line="+14"/>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
         <translation>Payment request file cannot be read! This can be caused by an invalid payment request file.</translation>
     </message>
     <message>
-        <location line="+61"/>
+        <location line="+69"/>
         <location line="+9"/>
-        <location line="+31"/>
-        <location line="+10"/>
-        <location line="+17"/>
-        <location line="+88"/>
+        <location line="+32"/>
         <source>Payment request rejected</source>
         <translation>Payment request rejected</translation>
     </message>
     <message>
-        <location line="-155"/>
+        <location line="-41"/>
         <source>Payment request network doesn&apos;t match client network.</source>
         <translation>Payment request network doesn&apos;t match client network.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Payment request expired.</source>
-        <translation>Payment request expired.</translation>
+        <source>Payment request has expired.</source>
+        <translation>Payment request has expired.</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+7"/>
         <source>Payment request is not initialized.</source>
         <translation>Payment request is not initialized.</translation>
     </message>
@@ -2498,28 +2053,27 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Unverified payment requests to custom payment scripts are unsupported.</translation>
     </message>
     <message>
-        <location line="+9"/>
-        <location line="+17"/>
-        <source>Invalid payment request.</source>
-        <translation>Invalid payment request.</translation>
-    </message>
-    <message>
-        <location line="-10"/>
+        <location line="+8"/>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
         <translation>Requested payment amount of %1 is too small (considered dust).</translation>
     </message>
     <message>
-        <location line="+55"/>
+        <location line="+50"/>
         <source>Refund from %1</source>
         <translation>Refund from %1</translation>
     </message>
     <message>
-        <location line="+44"/>
+        <location line="+43"/>
         <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
         <translation>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+6"/>
+        <source>Payment request DoS protection</source>
+        <translation>Payment request DoS protection</translation>
+    </message>
+    <message>
+        <location line="+5"/>
         <source>Error communicating with %1: %2</source>
         <translation>Error communicating with %1: %2</translation>
     </message>
@@ -2547,14 +2101,9 @@ https://www.transifex.com/projects/p/dash/</translation>
 <context>
     <name>PeerTableModel</name>
     <message>
-        <location filename="../peertablemodel.cpp" line="+117"/>
-        <source>NodeId</source>
-        <translation>NodeId</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Node/Service</source>
-        <translation>Node/Service</translation>
+        <location filename="../peertablemodel.cpp" line="+118"/>
+        <source>Address/Hostname</source>
+        <translation>Address/Hostname</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2563,39 +2112,24 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+0"/>
-        <source>Ping</source>
-        <translation>Ping</translation>
+        <source>Ping Time</source>
+        <translation>Ping Time</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../dash.cpp" line="+132"/>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
-    </message>
-    <message>
-        <location line="+49"/>
-        <source>%1 didn&apos;t yet exit safely...</source>
-        <translation>%1 didn&apos;t yet exit safely...</translation>
-    </message>
-    <message>
-        <location line="-48"/>
-        <source>Error reading masternode configuration file: %1</source>
-        <translation>Error reading masternode configuration file: %1</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinunits.cpp" line="+233"/>
+        <location filename="../bitcoinunits.cpp" line="+252"/>
         <source>Amount</source>
         <translation>Amount</translation>
     </message>
     <message>
-        <location filename="../guiutil.cpp" line="+137"/>
+        <location filename="../guiutil.cpp" line="+110"/>
         <source>Enter a Dash address (e.g. %1)</source>
         <translation>Enter a Dash address (e.g. %1)</translation>
     </message>
     <message>
-        <location line="+859"/>
+        <location line="+760"/>
         <source>%1 d</source>
         <translation>%1 d</translation>
     </message>
@@ -2611,12 +2145,21 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+47"/>
         <source>%1 s</source>
         <translation>%1 s</translation>
     </message>
     <message>
-        <location line="-10"/>
+        <location line="+17"/>
+        <source>NETWORK</source>
+        <translation>NETWORK</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>UNKNOWN</source>
+        <translation>UNKNOWN</translation>
+    </message>
+    <message>
+        <location line="+8"/>
         <source>None</source>
         <translation>None</translation>
     </message>
@@ -2629,129 +2172,6 @@ https://www.transifex.com/projects/p/dash/</translation>
         <location line="+0"/>
         <source>%1 ms</source>
         <translation>%1 ms</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+18"/>
-        <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n second</numerusform>
-            <numerusform>%n seconds</numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <location line="+4"/>
-        <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minute</numerusform>
-            <numerusform>%n minutes</numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <location line="+4"/>
-        <source>%n hour(s)</source>
-        <translation>
-            <numerusform>%n hour</numerusform>
-            <numerusform>%n hours</numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <location line="+4"/>
-        <source>%n day(s)</source>
-        <translation>
-            <numerusform>%n day</numerusform>
-            <numerusform>%n days</numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <location line="+4"/>
-        <location line="+6"/>
-        <source>%n week(s)</source>
-        <translation>
-            <numerusform>%n week</numerusform>
-            <numerusform>%n weeks</numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <location line="+0"/>
-        <source>%n year(s)</source>
-        <translation>
-            <numerusform>%n year</numerusform>
-            <numerusform>%n years</numerusform>
-        </translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>%1 and %2</source>
-        <translation>%1 and %2</translation>
-    </message>
-    <message>
-        <location filename="../modaloverlay.cpp" line="-29"/>
-        <source>unknown</source>
-        <translation>unknown</translation>
-    </message>
-</context>
-<context>
-    <name>QObject::QObject</name>
-    <message>
-        <location filename="../dash.cpp" line="-41"/>
-        <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
-        <translation>Error: Specified data directory &quot;%1&quot; does not exist.</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
-        <translation>Error: Cannot parse configuration file: %1. Only use key=value syntax.</translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>Error: %1</source>
-        <translation>Error: %1</translation>
-    </message>
-</context>
-<context>
-    <name>QRDialog</name>
-    <message>
-        <location filename="../forms/qrdialog.ui" line="+23"/>
-        <source>QR-Code Title</source>
-        <translation>QR-Code Title</translation>
-    </message>
-    <message>
-        <location line="+22"/>
-        <source>QR Code</source>
-        <translation>QR Code</translation>
-    </message>
-    <message>
-        <location line="+46"/>
-        <source>&amp;Save Image...</source>
-        <translation>&amp;Save Image...</translation>
-    </message>
-    <message>
-        <location filename="../qrdialog.cpp" line="+149"/>
-        <source>Error creating QR Code.</source>
-        <translation>Error creating QR Code.</translation>
-    </message>
-</context>
-<context>
-    <name>QRGeneralImageWidget</name>
-    <message>
-        <location line="-113"/>
-        <source>&amp;Save Image...</source>
-        <translation>&amp;Save Image...</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Copy Image</source>
-        <translation>&amp;Copy Image</translation>
-    </message>
-    <message>
-        <location line="+32"/>
-        <source>Save QR Code</source>
-        <translation>Save QR Code</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>PNG Image (*.png)</source>
-        <translation>PNG Image (*.png)</translation>
     </message>
 </context>
 <context>
@@ -2780,7 +2200,7 @@ https://www.transifex.com/projects/p/dash/</translation>
 <context>
     <name>RPCConsole</name>
     <message>
-        <location filename="../forms/debugwindow.ui" line="+14"/>
+        <location filename="../forms/rpcconsole.ui" line="+14"/>
         <source>Tools window</source>
         <translation>Tools window</translation>
     </message>
@@ -2790,131 +2210,130 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>&amp;Information</translation>
     </message>
     <message>
-        <location line="+15"/>
+        <location line="+51"/>
         <source>General</source>
         <translation>General</translation>
     </message>
     <message>
-        <location line="+144"/>
+        <location line="+204"/>
         <source>Name</source>
         <translation>Name</translation>
     </message>
     <message>
-        <location line="-127"/>
-        <location line="+26"/>
-        <location line="+26"/>
-        <location line="+23"/>
-        <location line="+26"/>
+        <location line="-197"/>
+        <source>Client name</source>
+        <translation>Client name</translation>
+    </message>
+    <message>
+        <location line="-36"/>
+        <location line="+10"/>
         <location line="+36"/>
-        <location line="+23"/>
-        <location line="+20"/>
         <location line="+30"/>
         <location line="+23"/>
+        <location line="+23"/>
+        <location line="+62"/>
+        <location line="+23"/>
         <location line="+36"/>
-        <location line="+23"/>
-        <location line="+665"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+23"/>
         <location line="+26"/>
+        <location line="+23"/>
+        <location line="+425"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
         <source>N/A</source>
         <translation>N/A</translation>
     </message>
     <message>
-        <location line="-1201"/>
+        <location line="-927"/>
         <source>Number of connections</source>
         <translation>Number of connections</translation>
     </message>
     <message>
-        <location line="+183"/>
+        <location line="+76"/>
+        <source>Open the Dash debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the Dash debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>&amp;Open</source>
         <translation>&amp;Open</translation>
     </message>
     <message>
-        <location line="-242"/>
+        <location line="-56"/>
         <source>Startup time</source>
         <translation>Startup time</translation>
     </message>
     <message>
-        <location line="+29"/>
+        <location line="+137"/>
         <source>Network</source>
         <translation>Network</translation>
     </message>
     <message>
-        <location line="+103"/>
+        <location line="-91"/>
         <source>Last block time</source>
         <translation>Last block time</translation>
     </message>
     <message>
-        <location line="+100"/>
+        <location line="+26"/>
         <source>Debug log file</source>
         <translation>Debug log file</translation>
     </message>
     <message>
-        <location line="-123"/>
+        <location line="+95"/>
+        <source>Using OpenSSL version</source>
+        <translation>Using OpenSSL version</translation>
+    </message>
+    <message>
+        <location line="-197"/>
+        <source>Build date</source>
+        <translation>Build date</translation>
+    </message>
+    <message>
+        <location line="+53"/>
         <source>Current number of blocks</source>
         <translation>Current number of blocks</translation>
     </message>
     <message>
-        <location line="-210"/>
+        <location line="+85"/>
         <source>Client version</source>
         <translation>Client version</translation>
     </message>
     <message>
-        <location line="+49"/>
+        <location line="+108"/>
         <source>Using BerkeleyDB version</source>
         <translation>Using BerkeleyDB version</translation>
     </message>
     <message>
-        <location line="+154"/>
+        <location line="-312"/>
         <source>Block chain</source>
         <translation>Block chain</translation>
     </message>
     <message>
-        <location line="-20"/>
+        <location line="+289"/>
         <source>Number of Masternodes</source>
         <translation>Number of Masternodes</translation>
     </message>
     <message>
-        <location line="+79"/>
-        <source>Memory Pool</source>
-        <translation>Memory Pool</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Current number of transactions</source>
-        <translation>Current number of transactions</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Memory usage</source>
-        <translation>Memory usage</translation>
-    </message>
-    <message>
-        <location line="+77"/>
+        <location line="+34"/>
         <source>&amp;Console</source>
         <translation>&amp;Console</translation>
     </message>
     <message>
-        <location line="+100"/>
+        <location line="+49"/>
         <source>Clear console</source>
         <translation>Clear console</translation>
     </message>
     <message>
-        <location line="+95"/>
+        <location line="+23"/>
         <source>&amp;Network Traffic</source>
         <translation>&amp;Network Traffic</translation>
     </message>
@@ -2930,40 +2349,28 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+64"/>
-        <location line="+560"/>
         <source>Received</source>
         <translation>Received</translation>
     </message>
     <message>
-        <location line="-480"/>
-        <location line="+457"/>
+        <location line="+80"/>
         <source>Sent</source>
         <translation>Sent</translation>
     </message>
     <message>
-        <location line="-416"/>
+        <location line="+41"/>
         <source>&amp;Peers</source>
         <translation>&amp;Peers</translation>
     </message>
     <message>
-        <location line="+53"/>
-        <source>Banned peers</source>
-        <translation>Banned peers</translation>
-    </message>
-    <message>
-        <location line="+62"/>
-        <location filename="../rpcconsole.cpp" line="+484"/>
-        <location line="+788"/>
+        <location line="+41"/>
+        <location filename="../rpcconsole.cpp" line="+252"/>
+        <location line="+426"/>
         <source>Select a peer to view detailed information.</source>
         <translation>Select a peer to view detailed information.</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Whitelisted</source>
-        <translation>Whitelisted</translation>
-    </message>
-    <message>
-        <location line="+23"/>
         <source>Direction</source>
         <translation>Direction</translation>
     </message>
@@ -2973,58 +2380,27 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Version</translation>
     </message>
     <message>
-        <location line="+69"/>
-        <source>Starting Block</source>
-        <translation>Starting Block</translation>
-    </message>
-    <message>
         <location line="+23"/>
-        <source>Synced Headers</source>
-        <translation>Synced Headers</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Synced Blocks</source>
-        <translation>Synced Blocks</translation>
-    </message>
-    <message>
-        <location line="+534"/>
-        <source>Wallet Path</source>
-        <translation>Wallet Path</translation>
-    </message>
-    <message>
-        <location line="-1629"/>
-        <location line="+1003"/>
         <source>User Agent</source>
         <translation>User Agent</translation>
     </message>
     <message>
-        <location line="-951"/>
-        <source>Datadir</source>
-        <translation>Datadir</translation>
-    </message>
-    <message>
-        <location line="+265"/>
-        <source>Open the %1 debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the %1 debug log file from the current data directory. This can take a few seconds for large log files.</translation>
-    </message>
-    <message>
-        <location line="+68"/>
-        <source>Decrease font size</source>
-        <translation>Decrease font size</translation>
-    </message>
-    <message>
-        <location line="+29"/>
-        <source>Increase font size</source>
-        <translation>Increase font size</translation>
-    </message>
-    <message>
-        <location line="+612"/>
+        <location line="+23"/>
         <source>Services</source>
         <translation>Services</translation>
     </message>
     <message>
-        <location line="+92"/>
+        <location line="+23"/>
+        <source>Starting Height</source>
+        <translation>Starting Height</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Sync Height</source>
+        <translation>Sync Height</translation>
+    </message>
+    <message>
+        <location line="+23"/>
         <source>Ban Score</source>
         <translation>Ban Score</translation>
     </message>
@@ -3044,29 +2420,19 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Last Receive</translation>
     </message>
     <message>
-        <location line="+69"/>
+        <location line="+23"/>
+        <source>Bytes Sent</source>
+        <translation>Bytes Sent</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Bytes Received</source>
+        <translation>Bytes Received</translation>
+    </message>
+    <message>
+        <location line="+23"/>
         <source>Ping Time</source>
         <translation>Ping Time</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>The duration of a currently outstanding ping.</source>
-        <translation>The duration of a currently outstanding ping.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Ping Wait</source>
-        <translation>Ping Wait</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Min Ping</source>
-        <translation>Min Ping</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Time Offset</source>
-        <translation>Time Offset</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -3144,47 +2510,19 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>-reindex: Rebuild block chain index from current blk000??.dat files.</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="-692"/>
-        <source>&amp;Disconnect</source>
-        <translation>&amp;Disconnect</translation>
+        <location filename="../rpcconsole.cpp" line="-203"/>
+        <source>In:</source>
+        <translation>In:</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location line="+1"/>
-        <location line="+1"/>
-        <location line="+1"/>
-        <source>Ban for</source>
-        <translation>Ban for</translation>
+        <source>Out:</source>
+        <translation>Out:</translation>
     </message>
     <message>
-        <location line="-3"/>
-        <source>1 &amp;hour</source>
-        <translation>1 &amp;hour</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>1 &amp;day</source>
-        <translation>1 &amp;day</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>1 &amp;week</source>
-        <translation>1 &amp;week</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>1 &amp;year</source>
-        <translation>1 &amp;year</translation>
-    </message>
-    <message>
-        <location line="+48"/>
-        <source>&amp;Unban</source>
-        <translation>&amp;Unban</translation>
-    </message>
-    <message>
-        <location line="+188"/>
-        <source>Welcome to the %1 RPC console.</source>
-        <translation>Welcome to the %1 RPC console.</translation>
+        <location line="-35"/>
+        <source>Welcome to the Dash RPC console.</source>
+        <translation>Welcome to the Dash RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3197,27 +2535,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramification of a command.</source>
-        <translation>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramification of a command.</translation>
-    </message>
-    <message>
-        <location line="+32"/>
-        <source>In:</source>
-        <translation>In:</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Out:</source>
-        <translation>Out:</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Network activity disabled</source>
-        <translation>Network activity disabled</translation>
-    </message>
-    <message>
-        <location line="+153"/>
+        <location line="+139"/>
         <source>%1 B</source>
         <translation>%1 B</translation>
     </message>
@@ -3237,12 +2555,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>%1 GB</translation>
     </message>
     <message>
-        <location line="+99"/>
-        <source>(node id: %1)</source>
-        <translation>(node id: %1)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+128"/>
         <source>via %1</source>
         <translation>via %1</translation>
     </message>
@@ -3253,7 +2566,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>never</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+7"/>
         <source>Inbound</source>
         <translation>Inbound</translation>
     </message>
@@ -3263,20 +2576,15 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Outbound</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Yes</source>
-        <translation>Yes</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>No</source>
-        <translation>No</translation>
-    </message>
-    <message>
-        <location line="+12"/>
-        <location line="+6"/>
+        <location line="+13"/>
         <source>Unknown</source>
         <translation>Unknown</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <location line="+1"/>
+        <source>Fetching...</source>
+        <translation>Fetching...</translation>
     </message>
 </context>
 <context>
@@ -3339,7 +2647,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>&amp;Request payment</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+17"/>
         <source>Clear all fields of the form.</source>
         <translation>Clear all fields of the form.</translation>
     </message>
@@ -3349,12 +2657,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Clear</translation>
     </message>
     <message>
-        <location line="+32"/>
-        <source>Request InstantSend</source>
-        <translation>Request InstantSend</translation>
-    </message>
-    <message>
-        <location line="+49"/>
+        <location line="+75"/>
         <source>Requested payments history</source>
         <translation>Requested payments history</translation>
     </message>
@@ -3369,7 +2672,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Show</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+17"/>
         <source>Remove the selected entries from the list</source>
         <translation>Remove the selected entries from the list</translation>
     </message>
@@ -3379,12 +2682,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Remove</translation>
     </message>
     <message>
-        <location filename="../receivecoinsdialog.cpp" line="+48"/>
-        <source>Copy URI</source>
-        <translation>Copy URI</translation>
-    </message>
-    <message>
-        <location line="+1"/>
+        <location filename="../receivecoinsdialog.cpp" line="+39"/>
         <source>Copy label</source>
         <translation>Copy label</translation>
     </message>
@@ -3457,21 +2755,6 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Message</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>InstantSend</source>
-        <translation>InstantSend</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Yes</source>
-        <translation>Yes</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>No</source>
-        <translation>No</translation>
-    </message>
-    <message>
         <location line="+10"/>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
         <translation>Resulting URI too long, try to reduce the text for label / message.</translation>
@@ -3485,7 +2768,7 @@ https://www.transifex.com/projects/p/dash/</translation>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
-        <location filename="../recentrequeststablemodel.cpp" line="+29"/>
+        <location filename="../recentrequeststablemodel.cpp" line="+28"/>
         <source>Date</source>
         <translation>Date</translation>
     </message>
@@ -3500,7 +2783,12 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Message</translation>
     </message>
     <message>
-        <location line="+40"/>
+        <location line="+99"/>
+        <source>Amount</source>
+        <translation>Amount</translation>
+    </message>
+    <message>
+        <location line="-59"/>
         <source>(no label)</source>
         <translation>(no label)</translation>
     </message>
@@ -3511,20 +2799,16 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+8"/>
-        <source>(no amount requested)</source>
-        <translation>(no amount requested)</translation>
-    </message>
-    <message>
-        <location line="+42"/>
-        <source>Requested</source>
-        <translation>Requested</translation>
+        <source>(no amount)</source>
+        <translation>(no amount)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-        <location filename="../sendcoinsdialog.cpp" line="+667"/>
+        <location filename="../sendcoinsdialog.cpp" line="+638"/>
+        <location line="+12"/>
         <source>Send Coins</source>
         <translation>Send Coins</translation>
     </message>
@@ -3564,17 +2848,32 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Amount:</translation>
     </message>
     <message>
-        <location line="+80"/>
+        <location line="+32"/>
+        <source>Priority:</source>
+        <translation>Priority:</translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>medium</source>
+        <translation>medium</translation>
+    </message>
+    <message>
+        <location line="+35"/>
         <source>Fee:</source>
         <translation>Fee:</translation>
     </message>
     <message>
-        <location line="-48"/>
+        <location line="+32"/>
         <source>Dust:</source>
         <translation>Dust:</translation>
     </message>
     <message>
-        <location line="+99"/>
+        <location line="+13"/>
+        <source>no</source>
+        <translation>no</translation>
+    </message>
+    <message>
+        <location line="+35"/>
         <source>After Fee:</source>
         <translation>After Fee:</translation>
     </message>
@@ -3604,37 +2903,17 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Choose...</translation>
     </message>
     <message>
-        <location line="+24"/>
-        <source>Using the fallbackfee can result in sending a transaction that will take several hours or days (or never) to confirm. Consider choosing your fee manually or wait until your have validated the complete chain.</source>
-        <translation>Using the fallbackfee can result in sending a transaction that will take several hours or days (or never) to confirm. Consider choosing your fee manually or wait until your have validated the complete chain.</translation>
-    </message>
-    <message>
-        <location line="+9"/>
-        <source>Warning: Fee estimation is currently not possible.</source>
-        <translation>Warning: Fee estimation is currently not possible.</translation>
-    </message>
-    <message>
-        <location line="+26"/>
+        <location line="+7"/>
         <source>collapse fee-settings</source>
         <translation>collapse fee-settings</translation>
     </message>
     <message>
-        <location line="+256"/>
-        <source>Confirmation time target:</source>
-        <translation>Confirmation time target:</translation>
+        <location line="+3"/>
+        <source>Minimize</source>
+        <translation>Minimize</translation>
     </message>
     <message>
-        <location line="+231"/>
-        <source>PrivateSend</source>
-        <translation>PrivateSend</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>InstantSend</source>
-        <translation>InstantSend</translation>
-    </message>
-    <message>
-        <location line="-455"/>
+        <location line="+78"/>
         <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 duffs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 duffs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
     </message>
@@ -3655,12 +2934,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>per kilobyte</translation>
     </message>
     <message>
-        <location line="-51"/>
-        <source>Hide</source>
-        <translation>Hide</translation>
-    </message>
-    <message>
-        <location line="+67"/>
+        <location line="+16"/>
         <source>total at least</source>
         <translation>total at least</translation>
     </message>
@@ -3680,22 +2954,37 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Custom:</translation>
     </message>
     <message>
-        <location line="+52"/>
+        <location line="+55"/>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
         <translation>(Smart fee not initialized yet. This usually takes a few blocks...)</translation>
     </message>
     <message>
-        <location line="+89"/>
+        <location line="+29"/>
+        <source>Confirmation time:</source>
+        <translation>Confirmation time:</translation>
+    </message>
+    <message>
+        <location line="+60"/>
         <source>normal</source>
         <translation>normal</translation>
     </message>
     <message>
-        <location line="+40"/>
+        <location line="+20"/>
         <source>fast</source>
         <translation>fast</translation>
     </message>
     <message>
-        <location line="+59"/>
+        <location line="+38"/>
+        <source>Send as zero-fee transaction if possible</source>
+        <translation>Send as zero-fee transaction if possible</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>(confirmation may take longer)</source>
+        <translation>(confirmation may take longer)</translation>
+    </message>
+    <message>
+        <location line="+67"/>
         <source>Confirm the send action</source>
         <translation>Confirm the send action</translation>
     </message>
@@ -3705,7 +2994,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>S&amp;end</translation>
     </message>
     <message>
-        <location line="+19"/>
+        <location line="+23"/>
         <source>Clear all fields of the form.</source>
         <translation>Clear all fields of the form.</translation>
     </message>
@@ -3715,7 +3004,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Clear &amp;All</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+14"/>
         <source>Send to multiple recipients at once</source>
         <translation>Send to multiple recipients at once</translation>
     </message>
@@ -3725,12 +3014,22 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Add &amp;Recipient</translation>
     </message>
     <message>
-        <location line="+60"/>
+        <location line="+38"/>
+        <source>Darksend</source>
+        <translation>Darksend</translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>InstantX</source>
+        <translation>InstantX</translation>
+    </message>
+    <message>
+        <location line="+7"/>
         <source>Balance:</source>
         <translation>Balance:</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="-569"/>
+        <location filename="../sendcoinsdialog.cpp" line="-567"/>
         <source>Copy quantity</source>
         <translation>Copy quantity</translation>
     </message>
@@ -3756,6 +3055,11 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+1"/>
+        <source>Copy priority</source>
+        <translation>Copy priority</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Copy dust</source>
         <translation>Copy dust</translation>
     </message>
@@ -3765,7 +3069,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Copy change</translation>
     </message>
     <message>
-        <location line="+153"/>
+        <location line="+155"/>
         <location line="+6"/>
         <location line="+9"/>
         <source>using</source>
@@ -3779,21 +3083,21 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>(privatesend requires this amount to be rounded up to the nearest %1).</source>
-        <translation>(privatesend requires this amount to be rounded up to the nearest %1).</translation>
+        <source>(darksend requires this amount to be rounded up to the nearest %1).</source>
+        <translation>(darksend requires this amount to be rounded up to the nearest %1).</translation>
     </message>
     <message>
         <location line="+5"/>
-        <source>any available funds (not anonymous)</source>
-        <translation>any available funds (not anonymous)</translation>
+        <source>any available funds (not recommended)</source>
+        <translation>any available funds (not recommended)</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>and InstantSend</source>
-        <translation>and InstantSend</translation>
+        <source>and InstantX</source>
+        <translation>and InstantX</translation>
     </message>
     <message>
-        <location line="+74"/>
+        <location line="+24"/>
         <location line="+5"/>
         <location line="+5"/>
         <location line="+4"/>
@@ -3801,7 +3105,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>%1 to %2</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+49"/>
         <source>Are you sure you want to send?</source>
         <translation>Are you sure you want to send?</translation>
     </message>
@@ -3816,22 +3120,32 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Total Amount = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</translation>
     </message>
     <message>
-        <location line="+17"/>
-        <source>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</source>
-        <translation>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location line="+3"/>
+        <location line="+20"/>
         <source>Confirm send coins</source>
         <translation>Confirm send coins</translation>
     </message>
     <message>
-        <location line="+212"/>
-        <source>The recipient address is not valid. Please recheck.</source>
-        <translation>The recipient address is not valid. Please recheck.</translation>
+        <location line="+241"/>
+        <source>A fee %1 times higher than %2 per kB is considered an insanely high fee.</source>
+        <translation>A fee %1 times higher than %2 per kB is considered an insanely high fee.</translation>
+    </message>
+    <message numerus="yes">
+        <location line="+109"/>
+        <source>Estimated to begin confirmation within %n block(s).</source>
+        <translation><numerusform>Estimated to begin confirmation within %n block.</numerusform><numerusform>Estimated to begin confirmation within %n blocks.</numerusform></translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="-136"/>
+        <source>The recipient address is not valid, please recheck.</source>
+        <translation>The recipient address is not valid, please recheck.</translation>
+    </message>
+    <message>
+        <location line="-217"/>
+        <source>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</source>
+        <translation>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <location line="+220"/>
         <source>The amount to pay must be larger than 0.</source>
         <translation>The amount to pay must be larger than 0.</translation>
     </message>
@@ -3847,8 +3161,8 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Duplicate address found: addresses should only be used once each.</source>
-        <translation>Duplicate address found: addresses should only be used once each.</translation>
+        <source>Duplicate address found, can only send to each address once per send operation.</source>
+        <translation>Duplicate address found, can only send to each address once per send operation.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3857,62 +3171,31 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>The transaction was rejected with the following reason: %1</source>
-        <translation>The transaction was rejected with the following reason: %1</translation>
+        <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>A fee higher than %1 is considered an absurdly high fee.</source>
-        <translation>A fee higher than %1 is considered an absurdly high fee.</translation>
+        <location line="+5"/>
+        <source>Error: The wallet was unlocked only to anonymize coins.</source>
+        <translation>Error: The wallet was unlocked only to anonymize coins.</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Payment request expired.</source>
-        <translation>Payment request expired.</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+67"/>
-        <source>%n block(s)</source>
-        <translation>
-            <numerusform>%n block</numerusform>
-            <numerusform>%n blocks</numerusform>
-        </translation>
+        <location line="+90"/>
+        <source>Pay only the minimum fee of %1</source>
+        <translation>Pay only the minimum fee of %1</translation>
     </message>
     <message>
-        <location line="+28"/>
-        <source>Pay only the required fee of %1</source>
-        <translation>Pay only the required fee of %1</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+30"/>
-        <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation>
-            <numerusform>Estimated to begin confirmation within %n block.</numerusform>
-            <numerusform>Estimated to begin confirmation within %n blocks.</numerusform>
-        </translation>
-    </message>
-    <message>
-        <location line="+103"/>
+        <location line="+129"/>
         <source>Warning: Invalid Dash address</source>
         <translation>Warning: Invalid Dash address</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+9"/>
         <source>Warning: Unknown change address</source>
         <translation>Warning: Unknown change address</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Confirm custom change address</source>
-        <translation>Confirm custom change address</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>The address you selected for change is not part of this wallet. Any or all funds in your wallet may be sent to this address. Are you sure?</source>
-        <translation>The address you selected for change is not part of this wallet. Any or all funds in your wallet may be sent to this address. Are you sure?</translation>
-    </message>
-    <message>
-        <location line="+21"/>
+        <location line="+11"/>
         <source>(no label)</source>
         <translation>(no label)</translation>
     </message>
@@ -3925,7 +3208,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>This is a normal payment.</translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+15"/>
         <source>Pay &amp;To:</source>
         <translation>Pay &amp;To:</translation>
     </message>
@@ -3940,7 +3223,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Choose previously used address</translation>
     </message>
     <message>
-        <location line="+12"/>
+        <location line="+10"/>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
@@ -3950,19 +3233,19 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Paste address from clipboard</translation>
     </message>
     <message>
-        <location line="+12"/>
+        <location line="+10"/>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
     <message>
         <location line="+7"/>
-        <location line="+544"/>
-        <location line="+529"/>
+        <location line="+524"/>
+        <location line="+536"/>
         <source>Remove this entry</source>
         <translation>Remove this entry</translation>
     </message>
     <message>
-        <location line="-1055"/>
+        <location line="-1044"/>
         <source>&amp;Label:</source>
         <translation>&amp;Label:</translation>
     </message>
@@ -3973,23 +3256,13 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+7"/>
-        <location line="+535"/>
-        <location line="+529"/>
+        <location line="+521"/>
+        <location line="+536"/>
         <source>A&amp;mount:</source>
         <translation>A&amp;mount:</translation>
     </message>
     <message>
-        <location line="-1046"/>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Dash than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Dash than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>S&amp;ubtract fee from amount</source>
-        <translation>S&amp;ubtract fee from amount</translation>
-    </message>
-    <message>
-        <location line="+9"/>
+        <location line="-1041"/>
         <source>Message:</source>
         <translation>Message:</translation>
     </message>
@@ -3999,48 +3272,39 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</translation>
     </message>
     <message>
-        <location line="+433"/>
-        <source>This is an unauthenticated payment request.</source>
-        <translation>This is an unauthenticated payment request.</translation>
+        <location line="+426"/>
+        <source>This is an unverified payment request.</source>
+        <translation>This is an unverified payment request.</translation>
     </message>
     <message>
-        <location line="+525"/>
-        <source>This is an authenticated payment request.</source>
-        <translation>This is an authenticated payment request.</translation>
-    </message>
-    <message>
-        <location line="-510"/>
-        <location line="+525"/>
+        <location line="+18"/>
+        <location line="+532"/>
         <source>Pay To:</source>
         <translation>Pay To:</translation>
     </message>
     <message>
-        <location line="-495"/>
-        <location line="+529"/>
+        <location line="-498"/>
+        <location line="+536"/>
         <source>Memo:</source>
         <translation>Memo:</translation>
     </message>
     <message>
-        <location filename="../sendcoinsentry.cpp" line="+32"/>
+        <location line="-56"/>
+        <source>This is a verified payment request.</source>
+        <translation>This is a verified payment request.</translation>
+    </message>
+    <message>
+        <location filename="../sendcoinsentry.cpp" line="+31"/>
         <source>Enter a label for this address to add it to your address book</source>
         <translation>Enter a label for this address to add it to your address book</translation>
     </message>
 </context>
 <context>
-    <name>SendConfirmationDialog</name>
-    <message>
-        <location filename="../sendcoinsdialog.cpp" line="+97"/>
-        <location line="+5"/>
-        <source>Yes</source>
-        <translation>Yes</translation>
-    </message>
-</context>
-<context>
     <name>ShutdownWindow</name>
     <message>
-        <location filename="../utilitydialog.cpp" line="+71"/>
-        <source>%1 is shutting down...</source>
-        <translation>%1 is shutting down...</translation>
+        <location filename="../utilitydialog.cpp" line="+43"/>
+        <source>Dash Core is shutting down...</source>
+        <translation>Dash Core is shutting down...</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4062,8 +3326,8 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>You can sign messages/agreements with your addresses to prove you can receive Dash sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>You can sign messages/agreements with your addresses to prove you can receive Dash sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</translation>
+        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -4072,23 +3336,23 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+7"/>
-        <location line="+190"/>
+        <location line="+210"/>
         <source>Choose previously used address</source>
         <translation>Choose previously used address</translation>
     </message>
     <message>
-        <location line="-184"/>
-        <location line="+190"/>
+        <location line="-200"/>
+        <location line="+210"/>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="-180"/>
+        <location line="-200"/>
         <source>Paste address from clipboard</source>
         <translation>Paste address from clipboard</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+10"/>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
@@ -4108,7 +3372,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Copy the current signature to the system clipboard</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+21"/>
         <source>Sign the message to prove you own this Dash address</source>
         <translation>Sign the message to prove you own this Dash address</translation>
     </message>
@@ -4118,25 +3382,25 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Sign &amp;Message</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+14"/>
         <source>Reset all sign message fields</source>
         <translation>Reset all sign message fields</translation>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+131"/>
+        <location line="+143"/>
         <source>Clear &amp;All</source>
         <translation>Clear &amp;All</translation>
     </message>
     <message>
-        <location line="-76"/>
+        <location line="-84"/>
         <source>&amp;Verify Message</source>
         <translation>&amp;Verify Message</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Enter the receiver&apos;s address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
-        <translation>Enter the receiver&apos;s address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</translation>
+        <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
+        <translation>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -4144,7 +3408,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>The Dash address the message was signed with</translation>
     </message>
     <message>
-        <location line="+33"/>
+        <location line="+37"/>
         <source>Verify the message to ensure it was signed with the specified Dash address</source>
         <translation>Verify the message to ensure it was signed with the specified Dash address</translation>
     </message>
@@ -4154,17 +3418,17 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Verify &amp;Message</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+14"/>
         <source>Reset all verify message fields</source>
         <translation>Reset all verify message fields</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="+33"/>
+        <location filename="../signverifymessagedialog.cpp" line="+30"/>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
         <translation>Click &quot;Sign Message&quot; to generate signature</translation>
     </message>
     <message>
-        <location line="+104"/>
+        <location line="+83"/>
         <location line="+80"/>
         <source>The entered address is invalid.</source>
         <translation>The entered address is invalid.</translation>
@@ -4233,20 +3497,35 @@ https://www.transifex.com/projects/p/dash/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <location filename="../networkstyle.cpp" line="+24"/>
-        <source>[testnet]</source>
-        <translation>[testnet]</translation>
+        <location filename="../splashscreen.cpp" line="+36"/>
+        <source>Dash Core</source>
+        <translation>Dash Core</translation>
     </message>
     <message>
-        <location filename="../splashscreen.cpp" line="+50"/>
+        <location line="+1"/>
         <source>Version %1</source>
         <translation>Version %1</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>The Bitcoin Core developers</source>
+        <translation>The Bitcoin Core developers</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>The Dash Core developers</source>
+        <translation>The Dash Core developers</translation>
+    </message>
+    <message>
+        <location filename="../networkstyle.cpp" line="+19"/>
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
     </message>
 </context>
 <context>
     <name>TrafficGraphWidget</name>
     <message>
-        <location filename="../trafficgraphwidget.cpp" line="+94"/>
+        <location filename="../trafficgraphwidget.cpp" line="+79"/>
         <source>KB/s</source>
         <translation>KB/s</translation>
     </message>
@@ -4256,10 +3535,7 @@ https://www.transifex.com/projects/p/dash/</translation>
     <message numerus="yes">
         <location filename="../transactiondesc.cpp" line="+33"/>
         <source>Open for %n more block(s)</source>
-        <translation>
-            <numerusform>Open for %n more block</numerusform>
-            <numerusform>Open for %n more blocks</numerusform>
-        </translation>
+        <translation><numerusform>Open for %n more block</numerusform><numerusform>Open for %n more blocks</numerusform></translation>
     </message>
     <message>
         <location line="+2"/>
@@ -4267,34 +3543,32 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Open until %1</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+11"/>
+        <location line="+11"/>
+        <location line="+10"/>
+        <location line="+12"/>
         <source>conflicted</source>
         <translation>conflicted</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>%1/offline</source>
-        <translation>%1/offline</translation>
+        <location line="-31"/>
+        <source>%1/offline (verified via instantx)</source>
+        <translation>%1/offline (verified via instantx)</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>0/unconfirmed, %1</source>
-        <translation>0/unconfirmed, %1</translation>
+        <source>%1/confirmed (verified via instantx)</source>
+        <translation>%1/confirmed (verified via instantx)</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>in memory pool</source>
-        <translation>in memory pool</translation>
+        <location line="+2"/>
+        <source>%1 confirmations (verified via instantx)</source>
+        <translation>%1 confirmations (verified via instantx)</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>not in memory pool</source>
-        <translation>not in memory pool</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>abandoned</source>
-        <translation>abandoned</translation>
+        <location line="+29"/>
+        <source>%1/offline</source>
+        <translation>%1/offline</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -4302,27 +3576,38 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>%1/unconfirmed</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-10"/>
+        <location line="+12"/>
         <source>%1 confirmations</source>
         <translation>%1 confirmations</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>verified via InstantSend</source>
-        <translation>verified via InstantSend</translation>
+        <location line="-26"/>
+        <source>%1/offline (InstantX verification in progress - %2 of %3 signatures)</source>
+        <translation>%1/offline (InstantX verification in progress - %2 of %3 signatures)</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>InstantSend verification in progress - %1 of %2 signatures</source>
-        <translation>InstantSend verification in progress - %1 of %2 signatures</translation>
+        <source>%1/confirmed (InstantX verification in progress - %2 of %3 signatures )</source>
+        <translation>%1/confirmed (InstantX verification in progress - %2 of %3 signatures )</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>InstantSend verification failed</source>
-        <translation>InstantSend verification failed</translation>
+        <source>%1 confirmations (InstantX verification in progress - %2 of %3 signatures)</source>
+        <translation>%1 confirmations (InstantX verification in progress - %2 of %3 signatures)</translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+6"/>
+        <source>%1/offline (InstantX verification failed)</source>
+        <translation>%1/offline (InstantX verification failed)</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>%1/confirmed (InstantX verification failed)</source>
+        <translation>%1/confirmed (InstantX verification failed)</translation>
+    </message>
+    <message>
+        <location line="+32"/>
         <source>Status</source>
         <translation>Status</translation>
     </message>
@@ -4334,10 +3619,7 @@ https://www.transifex.com/projects/p/dash/</translation>
     <message numerus="yes">
         <location line="+2"/>
         <source>, broadcast through %n node(s)</source>
-        <translation>
-            <numerusform>, broadcast through %n node</numerusform>
-            <numerusform>, broadcast through %n nodes</numerusform>
-        </translation>
+        <translation><numerusform>, broadcast through %n node</numerusform><numerusform>, broadcast through %n nodes</numerusform></translation>
     </message>
     <message>
         <location line="+4"/>
@@ -4394,17 +3676,14 @@ https://www.transifex.com/projects/p/dash/</translation>
         <location line="+12"/>
         <location line="+53"/>
         <location line="+26"/>
-        <location line="+55"/>
+        <location line="+53"/>
         <source>Credit</source>
         <translation>Credit</translation>
     </message>
     <message numerus="yes">
-        <location line="-144"/>
+        <location line="-142"/>
         <source>matures in %n more block(s)</source>
-        <translation>
-            <numerusform>matures in %n more block</numerusform>
-            <numerusform>matures in %n more blocks</numerusform>
-        </translation>
+        <translation><numerusform>matures in %n more block</numerusform><numerusform>matures in %n more blocks</numerusform></translation>
     </message>
     <message>
         <location line="+2"/>
@@ -4414,12 +3693,12 @@ https://www.transifex.com/projects/p/dash/</translation>
     <message>
         <location line="+59"/>
         <location line="+25"/>
-        <location line="+55"/>
+        <location line="+53"/>
         <source>Debit</source>
         <translation>Debit</translation>
     </message>
     <message>
-        <location line="-70"/>
+        <location line="-68"/>
         <source>Total debit</source>
         <translation>Total debit</translation>
     </message>
@@ -4440,12 +3719,12 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+6"/>
-        <location line="+11"/>
+        <location line="+9"/>
         <source>Message</source>
         <translation>Message</translation>
     </message>
     <message>
-        <location line="-9"/>
+        <location line="-7"/>
         <source>Comment</source>
         <translation>Comment</translation>
     </message>
@@ -4453,16 +3732,6 @@ https://www.transifex.com/projects/p/dash/</translation>
         <location line="+2"/>
         <source>Transaction ID</source>
         <translation>Transaction ID</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Output index</source>
-        <translation>Output index</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Transaction total size</source>
-        <translation>Transaction total size</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -4490,7 +3759,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Inputs</translation>
     </message>
     <message>
-        <location line="+20"/>
+        <location line="+21"/>
         <source>Amount</source>
         <translation>Amount</translation>
     </message>
@@ -4510,20 +3779,20 @@ https://www.transifex.com/projects/p/dash/</translation>
 <context>
     <name>TransactionDescDialog</name>
     <message>
-        <location filename="../forms/transactiondescdialog.ui" line="+20"/>
-        <source>This pane shows a detailed description of the transaction</source>
-        <translation>This pane shows a detailed description of the transaction</translation>
+        <location filename="../forms/transactiondescdialog.ui" line="+14"/>
+        <source>Transaction details</source>
+        <translation>Transaction details</translation>
     </message>
     <message>
-        <location filename="../transactiondescdialog.cpp" line="+20"/>
-        <source>Details for %1</source>
-        <translation>Details for %1</translation>
+        <location line="+6"/>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>This pane shows a detailed description of the transaction</translation>
     </message>
 </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="+246"/>
+        <location filename="../transactiontablemodel.cpp" line="+229"/>
         <source>Date</source>
         <translation>Date</translation>
     </message>
@@ -4534,16 +3803,13 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+0"/>
-        <source>Address / Label</source>
-        <translation>Address / Label</translation>
+        <source>Address</source>
+        <translation>Address</translation>
     </message>
     <message numerus="yes">
         <location line="+58"/>
         <source>Open for %n more block(s)</source>
-        <translation>
-            <numerusform>Open for %n more block</numerusform>
-            <numerusform>Open for %n more blocks</numerusform>
-        </translation>
+        <translation><numerusform>Open for %n more block</numerusform><numerusform>Open for %n more blocks</numerusform></translation>
     </message>
     <message>
         <location line="+3"/>
@@ -4559,11 +3825,6 @@ https://www.transifex.com/projects/p/dash/</translation>
         <location line="+3"/>
         <source>Unconfirmed</source>
         <translation>Unconfirmed</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Abandoned</source>
-        <translation>Abandoned</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -4607,8 +3868,8 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Received via PrivateSend</source>
-        <translation>Received via PrivateSend</translation>
+        <source>Received via Darksend</source>
+        <translation>Received via Darksend</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -4627,31 +3888,31 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>PrivateSend Denominate</source>
-        <translation>PrivateSend Denominate</translation>
+        <source>Darksend Denominate</source>
+        <translation>Darksend Denominate</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>PrivateSend Collateral Payment</source>
-        <translation>PrivateSend Collateral Payment</translation>
+        <source>Darksend Collateral Payment</source>
+        <translation>Darksend Collateral Payment</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>PrivateSend Make Collateral Inputs</source>
-        <translation>PrivateSend Make Collateral Inputs</translation>
+        <source>Darksend Make Collateral Inputs</source>
+        <translation>Darksend Make Collateral Inputs</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>PrivateSend Create Denominations</source>
-        <translation>PrivateSend Create Denominations</translation>
+        <source>Darksend Create Denominations</source>
+        <translation>Darksend Create Denominations</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>PrivateSend</source>
-        <translation>PrivateSend</translation>
+        <source>Darksent</source>
+        <translation>Darksent</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <location line="+30"/>
         <source>watch-only</source>
         <translation>watch-only</translation>
     </message>
@@ -4661,12 +3922,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>(n/a)</translation>
     </message>
     <message>
-        <location line="+219"/>
-        <source>(no label)</source>
-        <translation>(no label)</translation>
-    </message>
-    <message>
-        <location line="+39"/>
+        <location line="+210"/>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
         <translation>Transaction status. Hover over this field to show number of confirmations.</translation>
     </message>
@@ -4687,8 +3943,8 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>User-defined intent/purpose of the transaction.</source>
-        <translation>User-defined intent/purpose of the transaction.</translation>
+        <source>Destination address of transaction.</source>
+        <translation>Destination address of transaction.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -4699,7 +3955,7 @@ https://www.transifex.com/projects/p/dash/</translation>
 <context>
     <name>TransactionView</name>
     <message>
-        <location filename="../transactionview.cpp" line="+73"/>
+        <location filename="../transactionview.cpp" line="+69"/>
         <location line="+17"/>
         <source>All</source>
         <translation>All</translation>
@@ -4751,28 +4007,28 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>PrivateSend</source>
-        <translation>PrivateSend</translation>
+        <source>Darksent</source>
+        <translation>Darksent</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>PrivateSend Make Collateral Inputs</source>
-        <translation>PrivateSend Make Collateral Inputs</translation>
+        <source>Darksend Make Collateral Inputs</source>
+        <translation>Darksend Make Collateral Inputs</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>PrivateSend Create Denominations</source>
-        <translation>PrivateSend Create Denominations</translation>
+        <source>Darksend Create Denominations</source>
+        <translation>Darksend Create Denominations</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>PrivateSend Denominate</source>
-        <translation>PrivateSend Denominate</translation>
+        <source>Darksend Denominate</source>
+        <translation>Darksend Denominate</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>PrivateSend Collateral Payment</source>
-        <translation>PrivateSend Collateral Payment</translation>
+        <source>Darksend Collateral Payment</source>
+        <translation>Darksend Collateral Payment</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4795,17 +4051,12 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Enter address or label to search</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+6"/>
         <source>Min amount</source>
         <translation>Min amount</translation>
     </message>
     <message>
-        <location line="+37"/>
-        <source>Abandon transaction</source>
-        <translation>Abandon transaction</translation>
-    </message>
-    <message>
-        <location line="+1"/>
+        <location line="+36"/>
         <source>Copy address</source>
         <translation>Copy address</translation>
     </message>
@@ -4826,16 +4077,6 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Copy raw transaction</source>
-        <translation>Copy raw transaction</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Copy full transaction details</source>
-        <translation>Copy full transaction details</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Edit label</source>
         <translation>Edit label</translation>
     </message>
@@ -4845,7 +4086,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Show transaction details</translation>
     </message>
     <message>
-        <location line="+211"/>
+        <location line="+201"/>
         <source>Export Transaction History</source>
         <translation>Export Transaction History</translation>
     </message>
@@ -4910,12 +4151,12 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>The transaction history was successfully saved to %1.</translation>
     </message>
     <message>
-        <location line="+169"/>
+        <location line="+126"/>
         <source>Range:</source>
         <translation>Range:</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+8"/>
         <source>to</source>
         <translation>to</translation>
     </message>
@@ -4923,7 +4164,7 @@ https://www.transifex.com/projects/p/dash/</translation>
 <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+138"/>
+        <location filename="../bitcoingui.cpp" line="+115"/>
         <source>Unit to show amounts in. Click to select another unit.</source>
         <translation>Unit to show amounts in. Click to select another unit.</translation>
     </message>
@@ -4931,7 +4172,7 @@ https://www.transifex.com/projects/p/dash/</translation>
 <context>
     <name>WalletFrame</name>
     <message>
-        <location filename="../walletframe.cpp" line="+27"/>
+        <location filename="../walletframe.cpp" line="+26"/>
         <source>No wallet has been loaded.</source>
         <translation>No wallet has been loaded.</translation>
     </message>
@@ -4939,29 +4180,23 @@ https://www.transifex.com/projects/p/dash/</translation>
 <context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="+311"/>
-        <location line="+12"/>
-        <location line="+5"/>
+        <location filename="../walletmodel.cpp" line="+292"/>
+        <location line="+9"/>
         <location line="+11"/>
         <source>Send Coins</source>
         <translation>Send Coins</translation>
     </message>
     <message>
-        <location line="-28"/>
-        <location line="+12"/>
-        <source>InstantSend doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 DASH.</source>
-        <translation>InstantSend doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 DASH.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Used way too many inputs (&gt;%1) for this InstantSend transaction, fees could be huge.</source>
-        <translation>Used way too many inputs (&gt;%1) for this InstantSend transaction, fees could be huge.</translation>
+        <location line="-20"/>
+        <location line="+9"/>
+        <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 DASH.</source>
+        <translation>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 DASH.</translation>
     </message>
 </context>
 <context>
     <name>WalletView</name>
     <message>
-        <location filename="../walletview.cpp" line="+49"/>
+        <location filename="../walletview.cpp" line="+45"/>
         <source>&amp;Export</source>
         <translation>&amp;Export</translation>
     </message>
@@ -4971,12 +4206,12 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Export the data in the current tab to a file</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+9"/>
         <source>Selected amount:</source>
         <translation>Selected amount:</translation>
     </message>
     <message>
-        <location line="+231"/>
+        <location line="+194"/>
         <source>Backup Wallet</source>
         <translation>Backup Wallet</translation>
     </message>
@@ -5009,22 +4244,37 @@ https://www.transifex.com/projects/p/dash/</translation>
 <context>
     <name>dash-core</name>
     <message>
-        <location filename="../dashstrings.cpp" line="+33"/>
+        <location filename="../dashstrings.cpp" line="+22"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Bind to given address and always listen on it. Use [host]:port notation for IPv6</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+10"/>
+        <source>Cannot obtain a lock on data directory %s. Dash Core is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s. Dash Core is probably already running.</translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
+        <translation>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</translation>
+    </message>
+    <message>
+        <location line="+18"/>
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
+        <translation>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
         <translation>Error: Listening for incoming connections failed (listen returned error %s)</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
         <translation>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+3"/>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</translation>
     </message>
@@ -5034,12 +4284,27 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Execute command when the best block changes (%s in cmd is replaced by block hash)</translation>
     </message>
     <message>
-        <location line="+71"/>
+        <location line="+20"/>
+        <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
+        <translation>In this mode -genproclimit controls how many blocks are generated immediately.</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>InstantX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
+        <translation>InstantX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</translation>
+    </message>
+    <message>
+        <location line="+17"/>
         <source>Name to construct url for KeePass entry that stores the wallet passphrase</source>
         <translation>Name to construct url for KeePass entry that stores the wallet passphrase</translation>
     </message>
     <message>
-        <location line="+48"/>
+        <location line="+10"/>
+        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
+        <translation>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</translation>
+    </message>
+    <message>
+        <location line="+7"/>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
         <translation>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</translation>
     </message>
@@ -5049,32 +4314,72 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+9"/>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
         <translation>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</translation>
     </message>
     <message>
-        <location line="+67"/>
+        <location line="+20"/>
+        <source>Unable to bind to %s on this computer. Dash Core is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. Dash Core is probably already running.</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
+        <translation>Unable to locate enough Darksend denominated funds for this transaction.</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 DASH.</source>
+        <translation>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 DASH.</translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</translation>
+    </message>
+    <message>
+        <location line="+6"/>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+3"/>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
         <translation>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+3"/>
+        <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
+        <translation>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
+        <translation>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</translation>
+    </message>
+    <message>
+        <location line="+10"/>
         <source>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</source>
         <translation>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+5"/>
+        <source>(default: 1)</source>
+        <translation>(default: 1)</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Accept command line and JSON-RPC commands</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Accept connections from outside (default: 1 if no -proxy or -connect)</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>Add a node to connect to and attempt to keep the connection open</translation>
     </message>
@@ -5084,19 +4389,39 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Allow DNS lookups for -addnode, -seednode and -connect</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>Already have that input.</source>
         <translation>Already have that input.</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+2"/>
+        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
+        <translation>Attempt to recover private keys from a corrupt wallet.dat</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Block creation options:</source>
         <translation>Block creation options:</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+1"/>
+        <source>Can&apos;t denominate: no compatible inputs left.</source>
+        <translation>Can&apos;t denominate: no compatible inputs left.</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Cannot downgrade wallet</source>
         <translation>Cannot downgrade wallet</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Cannot resolve -bind address: &apos;%s&apos;</source>
+        <translation>Cannot resolve -bind address: &apos;%s&apos;</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
+        <translation>Cannot resolve -externalip address: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -5104,9 +4429,14 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Cannot write default address</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+1"/>
         <source>Collateral not valid.</source>
         <translation>Collateral not valid.</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Connect only to the specified node(s)</source>
+        <translation>Connect only to the specified node(s)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5119,14 +4449,24 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Connection options:</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>Corrupted block database detected</source>
         <translation>Corrupted block database detected</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+4"/>
+        <source>Darksend options:</source>
+        <translation>Darksend options:</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Debugging/Testing options:</source>
         <translation>Debugging/Testing options:</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
+        <translation>Discover own IP address (default: 1 when listening and no -externalip)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5144,7 +4484,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Done loading</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+2"/>
         <source>Entries are full.</source>
         <translation>Entries are full.</translation>
     </message>
@@ -5159,12 +4499,22 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Error initializing wallet database environment %s!</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+1"/>
         <source>Error loading block database</source>
         <translation>Error loading block database</translation>
     </message>
     <message>
         <location line="+1"/>
+        <source>Error loading wallet.dat</source>
+        <translation>Error loading wallet.dat</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>Error loading wallet.dat: Wallet corrupted</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Error opening block database</source>
         <translation>Error opening block database</translation>
     </message>
@@ -5174,39 +4524,49 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Error reading from database, shutting down.</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
+        <source>Error recovering public key.</source>
+        <translation>Error recovering public key.</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Error</source>
         <translation>Error</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>Error: Disk space is low!</source>
         <translation>Error: Disk space is low!</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+2"/>
+        <source>Error: Wallet locked, unable to create transaction!</source>
+        <translation>Error: Wallet locked, unable to create transaction!</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Error: You already have pending entries in the Darksend pool</source>
+        <translation>Error: You already have pending entries in the Darksend pool</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Failed to listen on any port. Use -listen=0 if you want this.</translation>
     </message>
     <message>
-        <location line="-381"/>
+        <location line="+1"/>
+        <source>Failed to read block</source>
+        <translation>Failed to read block</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
+        <translation>If &lt;category&gt; is not supplied, output all debugging information.</translation>
+    </message>
+    <message>
+        <location line="-268"/>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>-maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
-        <translation>-maxtxfee is set very high! Fees this large could be paid on a single transaction.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>A fee rate (in %s/kB) that will be used when fee estimation has insufficient data (default: %s)</source>
-        <translation>A fee rate (in %s/kB) that will be used when fee estimation has insufficient data (default: %s)</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Accept relayed transactions received from whitelisted peers even when not relaying transactions (default: %d)</source>
-        <translation>Accept relayed transactions received from whitelisted peers even when not relaying transactions (default: %d)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5214,7 +4574,12 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+4"/>
+        <source>An error occurred while setting up the RPC address %s port %u for listening: %s</source>
+        <translation>An error occurred while setting up the RPC address %s port %u for listening: %s</translation>
+    </message>
+    <message>
+        <location line="+6"/>
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
         <translation>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</translation>
     </message>
@@ -5224,22 +4589,67 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+7"/>
+        <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
+        <translation>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
+        <translation>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
         <translation>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+6"/>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</translation>
     </message>
     <message>
-        <location line="+23"/>
-        <source>Error loading %s: You can&apos;t enable HD on a already existing non-HD wallet</source>
-        <translation>Error loading %s: You can&apos;t enable HD on a already existing non-HD wallet</translation>
+        <location line="+3"/>
+        <source>Disable all Dash specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Disable all Dash specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</translation>
     </message>
     <message>
-        <location line="+32"/>
+        <location line="+3"/>
+        <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
+        <translation>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Enable instantx, show confirmations for locked transactions (bool, default: %s)</source>
+        <translation>Enable instantx, show confirmations for locked transactions (bool, default: %s)</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Enable use of automated darksend for funds stored in this wallet (0-1, default: %u)</source>
+        <translation>Enable use of automated darksend for funds stored in this wallet (0-1, default: %u)</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Error: Unsupported argument -socks found. Setting SOCKS version isn&apos;t possible anymore, only SOCKS5 proxies are supported.</source>
+        <translation>Error: Unsupported argument -socks found. Setting SOCKS version isn&apos;t possible anymore, only SOCKS5 proxies are supported.</translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>Fees (in DASH/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Fees (in DASH/Kb) smaller than this are considered zero fee for relaying (default: %s)</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Fees (in DASH/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Fees (in DASH/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
+        <translation>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Found unconfirmed denominated outputs, will wait till they confirm to continue.</source>
         <translation>Found unconfirmed denominated outputs, will wait till they confirm to continue.</translation>
     </message>
@@ -5249,37 +4659,37 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>How thorough the block verification of -checkblocks is (0-4, default: %u)</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+2"/>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
         <translation>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>If this block is in the chain assume that it and its ancestors are valid and potentially skip their script verification (0 to verify all, default: %s, testnet: %s)</source>
-        <translation>If this block is in the chain assume that it and its ancestors are valid and potentially skip their script verification (0 to verify all, default: %s, testnet: %s)</translation>
-    </message>
-    <message>
-        <location line="+13"/>
+        <location line="+9"/>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
         <translation>Invalid amount for -maxtxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least the minrelay fee of %s to prevent stuck transactions)</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+3"/>
+        <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
+        <translation>Log transaction priority and fee per kB when mining blocks (default: %u)</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
         <translation>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</translation>
     </message>
     <message>
-        <location line="+9"/>
-        <source>Make sure to encrypt your wallet and delete all non-encrypted backups after you verified that wallet works!</source>
-        <translation>Make sure to encrypt your wallet and delete all non-encrypted backups after you verified that wallet works!</translation>
-    </message>
-    <message>
-        <location line="+7"/>
+        <location line="+3"/>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
         <translation>Maximum size of data in data carrier transactions we relay and mine (default: %u)</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+3"/>
+        <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
+        <translation>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</translation>
+    </message>
+    <message>
+        <location line="+5"/>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
         <translation>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</translation>
     </message>
@@ -5289,57 +4699,129 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</translation>
     </message>
     <message>
-        <location line="+97"/>
+        <location line="+2"/>
+        <source>Provide liquidity to Darksend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
+        <translation>Provide liquidity to Darksend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
+        <translation>Require high priority for relaying free or low-fee transactions (default:%u)</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Send trace/debug info to console instead of debug.log file (default: %u)</source>
+        <translation>Send trace/debug info to console instead of debug.log file (default: %u)</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
+        <translation>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Show N confirmations for a successfully locked transaction (0-9999, default: %u)</source>
+        <translation>Show N confirmations for a successfully locked transaction (0-9999, default: %u)</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
+        <translation>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>To use dashd, or the -server option to dash-qt, you must set an rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=dashrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s &quot;Dash Alert&quot; admin@foo.com
+</source>
+        <translation>To use dashd, or the -server option to dash-qt, you must set an rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=dashrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s &quot;Dash Alert&quot; admin@foo.com
+</translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 DASH.</source>
+        <translation>Unable to locate enough funds for this transaction that are not equal 1000 DASH.</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
         <translation>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>User defined mnemonic for HD wallet (bip39). Only has effect during wallet creation/first start (default: randomly generated)</source>
-        <translation>User defined mnemonic for HD wallet (bip39). Only has effect during wallet creation/first start (default: randomly generated)</translation>
+        <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>User defined seed for HD wallet (should be in hex). Only has effect during wallet creation/first start (default: randomly generated)</source>
-        <translation>User defined seed for HD wallet (should be in hex). Only has effect during wallet creation/first start (default: randomly generated)</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Dash Core will not work properly.</source>
+        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Dash Core will not work properly.</translation>
     </message>
     <message>
-        <location line="+40"/>
+        <location line="+16"/>
+        <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
+        <translation>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
         <translation>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</translation>
     </message>
     <message>
-        <location line="+9"/>
-        <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
-        <translation>You need to rebuild the database using -reindex-chainstate to change -txindex</translation>
+        <location line="+6"/>
+        <source>(9999 could be used only on mainnet)</source>
+        <translation>(9999 could be used only on mainnet)</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+1"/>
         <source>(default: %s)</source>
         <translation>(default: %s)</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+3"/>
+        <source>&lt;category&gt; can be:
+</source>
+        <translation>&lt;category&gt; can be:
+</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Accept public REST requests (default: %u)</source>
         <translation>Accept public REST requests (default: %u)</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+1"/>
+        <source>Acceptable ciphers (default: %s)</source>
+        <translation>Acceptable ciphers (default: %s)</translation>
+    </message>
+    <message>
+        <location line="+4"/>
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
         <translation>Always query for peer addresses via DNS lookup (default: %u)</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Can&apos;t mix: no compatible inputs found!</source>
-        <translation>Can&apos;t mix: no compatible inputs found!</translation>
+        <location line="+9"/>
+        <source>Cannot resolve -whitebind address: &apos;%s&apos;</source>
+        <translation>Cannot resolve -whitebind address: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>Chain selection options:</source>
-        <translation>Chain selection options:</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>Connect through SOCKS5 proxy</source>
         <translation>Connect through SOCKS5 proxy</translation>
     </message>
@@ -5349,42 +4831,87 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Connect to KeePassHttp on port &lt;port&gt; (default: %u)</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+3"/>
+        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copyright (C) 2014-%i The Dash Core Developers</source>
+        <translation>Copyright (C) 2014-%i The Dash Core Developers</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Could not parse -rpcbind value %s as network address</source>
+        <translation>Could not parse -rpcbind value %s as network address</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Darksend is idle.</source>
+        <translation>Darksend is idle.</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Darksend request complete:</source>
+        <translation>Darksend request complete:</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Darksend request incomplete:</source>
+        <translation>Darksend request incomplete:</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Disable safemode, override a real safe mode event (default: %u)</source>
+        <translation>Disable safemode, override a real safe mode event (default: %u)</translation>
+    </message>
+    <message>
+        <location line="+5"/>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
         <translation>Enable the client to act as a masternode (0-1, default: %u)</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Entry exceeds maximum size.</source>
-        <translation>Entry exceeds maximum size.</translation>
+        <location line="+2"/>
+        <source>Error connecting to Masternode.</source>
+        <translation>Error connecting to Masternode.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Error loading %s: You can&apos;t disable HD on a already existing HD wallet</source>
-        <translation>Error loading %s: You can&apos;t disable HD on a already existing HD wallet</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Dash Core</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of Dash Core</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>Failed to load fulfilled requests cache from</source>
-        <translation>Failed to load fulfilled requests cache from</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to load governance cache from</source>
-        <translation>Failed to load governance cache from</translation>
+        <location line="+5"/>
+        <source>Error: A fatal internal error occured, see debug.log for details</source>
+        <translation>Error: A fatal internal error occured, see debug.log for details</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Failed to load masternode cache from</source>
-        <translation>Failed to load masternode cache from</translation>
+        <source>Error: Can&apos;t select current denominated inputs</source>
+        <translation>Error: Can&apos;t select current denominated inputs</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Error: Unsupported argument -tor found, use -onion.</source>
+        <translation>Error: Unsupported argument -tor found, use -onion.</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Fee (in DASH/kB) to add to transactions you send (default: %s)</source>
+        <translation>Fee (in DASH/kB) to add to transactions you send (default: %s)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Failed to load masternode payments cache from</source>
-        <translation>Failed to load masternode payments cache from</translation>
+        <source>Finalizing transaction.</source>
+        <translation>Finalizing transaction.</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+1"/>
+        <source>Force safe mode (default: %u)</source>
+        <translation>Force safe mode (default: %u)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Found enough users, signing ( waiting %s )</source>
         <translation>Found enough users, signing ( waiting %s )</translation>
     </message>
@@ -5395,16 +4922,26 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+1"/>
+        <source>Generate coins (default: %u)</source>
+        <translation>Generate coins (default: %u)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
         <translation>How many blocks to check at startup (default: %u, 0 = all)</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+2"/>
         <source>Importing...</source>
         <translation>Importing...</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
+        <source>Imports blocks from external blk000??.dat file</source>
+        <translation>Imports blocks from external blk000??.dat file</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Include IP addresses in debug output (default: %u)</source>
         <translation>Include IP addresses in debug output (default: %u)</translation>
     </message>
@@ -5429,12 +4966,22 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Information</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
+        <source>Initialization sanity check failed. Dash Core is shutting down.</source>
+        <translation>Initialization sanity check failed. Dash Core is shutting down.</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Input is not valid.</source>
         <translation>Input is not valid.</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
+        <source>InstantX options:</source>
+        <translation>InstantX options:</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Insufficient funds.</source>
         <translation>Insufficient funds.</translation>
     </message>
@@ -5449,17 +4996,42 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Invalid -proxy address: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+1"/>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>Invalid amount for -maxtxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least %s)</source>
         <translation>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least %s)</translation>
     </message>
     <message>
-        <location line="+11"/>
-        <source>Keypool ran out, please call keypoolrefill first</source>
-        <translation>Keypool ran out, please call keypoolrefill first</translation>
+        <location line="+1"/>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+11"/>
+        <source>Last successful Darksend action was too recent.</source>
+        <translation>Last successful Darksend action was too recent.</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Limit size of signature cache to &lt;n&gt; entries (default: %u)</source>
+        <translation>Limit size of signature cache to &lt;n&gt; entries (default: %u)</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
         <translation>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</translation>
     </message>
@@ -5469,17 +5041,12 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Loading banlist...</source>
-        <translation>Loading banlist...</translation>
+        <location line="+3"/>
+        <source>Loading budget cache...</source>
+        <translation>Loading budget cache...</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Loading fulfilled requests cache...</source>
-        <translation>Loading fulfilled requests cache...</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>Loading masternode cache...</source>
         <translation>Loading masternode cache...</translation>
     </message>
@@ -5489,7 +5056,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Loading masternode payment cache...</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+3"/>
         <source>Lock is already in place.</source>
         <translation>Lock is already in place.</translation>
     </message>
@@ -5499,7 +5066,12 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Lock masternodes from masternode configuration file (default: %u)</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+1"/>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
+        <translation>Maintain at most &lt;n&gt; connections to peers (default: %u)</translation>
+    </message>
+    <message>
+        <location line="+4"/>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
         <translation>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</translation>
     </message>
@@ -5509,14 +5081,9 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+2"/>
         <source>Mixing in progress...</source>
         <translation>Mixing in progress...</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Mnemonic passphrase is too long, must be at most 256 characters</source>
-        <translation>Mnemonic passphrase is too long, must be at most 256 characters</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5534,37 +5101,37 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>No compatible Masternode found.</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+7"/>
         <source>Not in the Masternode list.</source>
         <translation>Not in the Masternode list.</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
+        <source>Number of automatic wallet backups (default: 10)</source>
+        <translation>Number of automatic wallet backups (default: 10)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Only accept block chain matching built-in checkpoints (default: %u)</source>
+        <translation>Only accept block chain matching built-in checkpoints (default: %u)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
         <translation>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Port: %d</source>
-        <translation>Port: %d</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Prepend debug output with timestamp (default: %u)</source>
         <translation>Prepend debug output with timestamp (default: %u)</translation>
     </message>
     <message>
-        <location line="+11"/>
-        <source>Rebuild chain state and block index from the blk*.dat files on disk</source>
-        <translation>Rebuild chain state and block index from the blk*.dat files on disk</translation>
+        <location line="+12"/>
+        <source>Run a thread to flush wallet periodically (default: %u)</source>
+        <translation>Run a thread to flush wallet periodically (default: %u)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Rebuild chain state from the currently indexed blocks</source>
-        <translation>Rebuild chain state from the currently indexed blocks</translation>
-    </message>
-    <message>
-        <location line="+9"/>
+        <location line="+2"/>
         <source>Send trace/debug info to debug.log file (default: %u)</source>
         <translation>Send trace/debug info to debug.log file (default: %u)</translation>
     </message>
@@ -5574,17 +5141,47 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Send transactions as zero-fee transactions if possible (default: %u)</translation>
     </message>
     <message>
+        <location line="+1"/>
+        <source>Server certificate file (default: %s)</source>
+        <translation>Server certificate file (default: %s)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Server private key (default: %s)</source>
+        <translation>Server private key (default: %s)</translation>
+    </message>
+    <message>
         <location line="+4"/>
+        <source>Set external address:port to get to this masternode (example: %s)</source>
+        <translation>Set external address:port to get to this masternode (example: %s)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
         <translation>Set key pool size to &lt;n&gt; (default: %u)</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+2"/>
+        <source>Set minimum block size in bytes (default: %u)</source>
+        <translation>Set minimum block size in bytes (default: %u)</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Set the number of threads to service RPC calls (default: %d)</source>
         <translation>Set the number of threads to service RPC calls (default: %d)</translation>
     </message>
     <message>
+        <location line="+1"/>
+        <source>Sets the DB_PRIVATE flag in the wallet db environment (default: %u)</source>
+        <translation>Sets the DB_PRIVATE flag in the wallet db environment (default: %u)</translation>
+    </message>
+    <message>
         <location line="+4"/>
+        <source>Signing timed out.</source>
+        <translation>Signing timed out.</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Specify configuration file (default: %s)</source>
         <translation>Specify configuration file (default: %s)</translation>
     </message>
@@ -5609,7 +5206,12 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Spend unconfirmed change when sending transactions (default: %u)</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
+        <source>Stop running after importing blocks from disk (default: %u)</source>
+        <translation>Stop running after importing blocks from disk (default: %u)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Submitted following entries to masternode: %u / %d</source>
         <translation>Submitted following entries to masternode: %u / %d</translation>
     </message>
@@ -5625,11 +5227,6 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Synchroning blockchain...</source>
-        <translation>Synchroning blockchain...</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Synchronization failed</source>
         <translation>Synchronization failed</translation>
     </message>
@@ -5639,97 +5236,82 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Synchronization finished</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+2"/>
+        <source>Synchronizing budgets...</source>
+        <translation>Synchronizing budgets...</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Synchronizing masternode winners...</source>
+        <translation>Synchronizing masternode winners...</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Synchronizing masternodes...</source>
         <translation>Synchronizing masternodes...</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+1"/>
+        <source>Synchronizing sporks...</source>
+        <translation>Synchronizing sporks...</translation>
+    </message>
+    <message>
+        <location line="+4"/>
         <source>This is not a Masternode.</source>
         <translation>This is not a Masternode.</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+1"/>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
         <translation>Threshold for disconnecting misbehaving peers (default: %u)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Too many %f denominations, removing.</source>
-        <translation>Too many %f denominations, removing.</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Tor control port password (default: empty)</source>
-        <translation>Tor control port password (default: empty)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Tor control port to use if onion listening enabled (default: %s)</source>
-        <translation>Tor control port to use if onion listening enabled (default: %s)</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>Unable to start HTTP server. See debug log for details.</source>
-        <translation>Unable to start HTTP server. See debug log for details.</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Unknown response.</source>
-        <translation>Unknown response.</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Unsupported argument -benchmark ignored, use -debug=bench.</source>
-        <translation>Unsupported argument -benchmark ignored, use -debug=bench.</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Unsupported argument -debugnet ignored, use -debug=net.</source>
-        <translation>Unsupported argument -debugnet ignored, use -debug=net.</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Unsupported argument -tor found, use -onion.</source>
-        <translation>Unsupported argument -tor found, use -onion.</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Upgrade wallet to latest format on startup</source>
-        <translation>Upgrade wallet to latest format on startup</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+14"/>
         <source>Use KeePass 2 integration using KeePassHttp plugin (default: %u)</source>
         <translation>Use KeePass 2 integration using KeePassHttp plugin (default: %u)</translation>
     </message>
     <message>
         <location line="+1"/>
+        <source>Use N separate masternodes to anonymize funds  (2-8, default: %u)</source>
+        <translation>Use N separate masternodes to anonymize funds  (2-8, default: %u)</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Use UPnP to map the listening port (default: %u)</source>
         <translation>Use UPnP to map the listening port (default: %u)</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Use the test chain</source>
-        <translation>Use the test chain</translation>
+        <location line="+9"/>
+        <source>Wallet needed to be rewritten: restart Dash Core to complete</source>
+        <translation>Wallet needed to be rewritten: restart Dash Core to complete</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
+        <translation>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>User Agent comment (%s) contains unsafe characters.</source>
-        <translation>User Agent comment (%s) contains unsafe characters.</translation>
+        <source>Warning: Unsupported argument -debugnet ignored, use -debug=net.</source>
+        <translation>Warning: Unsupported argument -debugnet ignored, use -debug=net.</translation>
     </message>
     <message>
-        <location line="+15"/>
+        <location line="+1"/>
         <source>Will retry...</source>
         <translation>Will retry...</translation>
     </message>
     <message>
-        <location line="-158"/>
+        <location line="-136"/>
         <source>Invalid masternodeprivkey. Please see documenation.</source>
         <translation>Invalid masternodeprivkey. Please see documenation.</translation>
     </message>
     <message>
-        <location line="-75"/>
+        <location line="-88"/>
+        <source>(must be 9999 for mainnet)</source>
+        <translation>(must be 9999 for mainnet)</translation>
+    </message>
+    <message>
+        <location line="+13"/>
         <source>Can&apos;t find random Masternode.</source>
         <translation>Can&apos;t find random Masternode.</translation>
     </message>
@@ -5739,12 +5321,12 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Can&apos;t mix while sync in progress.</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+16"/>
         <source>Could not parse masternode.conf</source>
         <translation>Could not parse masternode.conf</translation>
     </message>
     <message>
-        <location line="+61"/>
+        <location line="+59"/>
         <source>Invalid netmask specified in -whitelist: &apos;%s&apos;</source>
         <translation>Invalid netmask specified in -whitelist: &apos;%s&apos;</translation>
     </message>
@@ -5755,11 +5337,16 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+1"/>
+        <source>Invalid private key.</source>
+        <translation>Invalid private key.</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Invalid script detected.</source>
         <translation>Invalid script detected.</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>KeePassHttp id for the established association</source>
         <translation>KeePassHttp id for the established association</translation>
     </message>
@@ -5769,332 +5356,22 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>KeePassHttp key for AES encrypted communication with KeePass</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
+        <source>Keep N DASH anonymized (default: %u)</source>
+        <translation>Keep N DASH anonymized (default: %u)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
         <translation>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</translation>
     </message>
     <message>
-        <location line="-376"/>
-        <source>Disable all Dash specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
-        <translation>Disable all Dash specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</translation>
+        <location line="+1"/>
+        <source>Last Darksend was too recent.</source>
+        <translation>Last Darksend was too recent.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
-        <translation>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Do not keep transactions in the mempool longer than &lt;n&gt; hours (default: %u)</source>
-        <translation>Do not keep transactions in the mempool longer than &lt;n&gt; hours (default: %u)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Enable InstantSend, show confirmations for locked transactions (0-1, default: %u)</source>
-        <translation>Enable InstantSend, show confirmations for locked transactions (0-1, default: %u)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Enable multiple PrivateSend mixing sessions per block, experimental (0-1, default: %u)</source>
-        <translation>Enable multiple PrivateSend mixing sessions per block, experimental (0-1, default: %u)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Enable use of automated PrivateSend for funds stored in this wallet (0-1, default: %u)</source>
-        <translation>Enable use of automated PrivateSend for funds stored in this wallet (0-1, default: %u)</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>Execute command when a wallet InstantSend transaction is successfully locked (%s in cmd is replaced by TxID)</source>
-        <translation>Execute command when a wallet InstantSend transaction is successfully locked (%s in cmd is replaced by TxID)</translation>
-    </message>
-    <message>
-        <location line="+9"/>
-        <source>Failed to create backup, file already exists! This could happen if you restarted wallet in less than 60 seconds. You can continue if you are ok with this.</source>
-        <translation>Failed to create backup, file already exists! This could happen if you restarted wallet in less than 60 seconds. You can continue if you are ok with this.</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Fees (in %s/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: %s)</source>
-        <translation>Fees (in %s/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: %s)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Fees (in %s/kB) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Fees (in %s/kB) smaller than this are considered zero fee for transaction creation (default: %s)</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>If &lt;category&gt; is not supplied or if &lt;category&gt; = 1, output all debugging information.</source>
-        <translation>If &lt;category&gt; is not supplied or if &lt;category&gt; = 1, output all debugging information.</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>InstantSend doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 DASH.</source>
-        <translation>InstantSend doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 DASH.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>InstantSend requires inputs with at least %d confirmations, you might need to wait a few minutes and try again.</source>
-        <translation>InstantSend requires inputs with at least %d confirmations, you might need to wait a few minutes and try again.</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Maintain a full address index, used to query for the balance, txids and unspent outputs for addresses (default: %u)</source>
-        <translation>Maintain a full address index, used to query for the balance, txids and unspent outputs for addresses (default: %u)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Maintain a full spent index, used to query the spending txid and input index for an outpoint (default: %u)</source>
-        <translation>Maintain a full spent index, used to query the spending txid and input index for an outpoint (default: %u)</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Maintain a timestamp index for block hashes, used to query blocks hashes by a range of timestamps (default: %u)</source>
-        <translation>Maintain a timestamp index for block hashes, used to query blocks hashes by a range of timestamps (default: %u)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Maintain at most &lt;n&gt; connections to peers (temporary service connections excluded) (default: %u)</source>
-        <translation>Maintain at most &lt;n&gt; connections to peers (temporary service connections excluded) (default: %u)</translation>
-    </message>
-    <message>
-        <location line="+31"/>
-        <source>PrivateSend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>PrivateSend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
-        <translation>Prune configured below the minimum of %d MiB.  Please use a higher number.</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</source>
-        <translation>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
-        <translation>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</translation>
-    </message>
-    <message>
-        <location line="+12"/>
-        <source>Rescans are not possible in pruned mode. You will need to use -reindex which will download the whole blockchain again.</source>
-        <translation>Rescans are not possible in pruned mode. You will need to use -reindex which will download the whole blockchain again.</translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>Specify full path to directory for automatic wallet backups (must exist)</source>
-        <translation>Specify full path to directory for automatic wallet backups (must exist)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Support filtering of blocks and transaction with bloom filters (default: %u)</source>
-        <translation>Support filtering of blocks and transaction with bloom filters (default: %u)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>The block database contains a block which appears to be from the future. This may be due to your computer&apos;s date and time being set incorrectly. Only rebuild the block database if you are sure that your computer&apos;s date and time are correct</source>
-        <translation>The block database contains a block which appears to be from the future. This may be due to your computer&apos;s date and time being set incorrectly. Only rebuild the block database if you are sure that your computer&apos;s date and time are correct</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The transaction amount is too small to send after the fee has been deducted</source>
-        <translation>The transaction amount is too small to send after the fee has been deducted</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
-        <translation>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = no limit (default: %d)</source>
-        <translation>Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = no limit (default: %d)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Unable to locate enough PrivateSend denominated funds for this transaction.</source>
-        <translation>Unable to locate enough PrivateSend denominated funds for this transaction.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Unsupported argument -socks found. Setting SOCKS version isn&apos;t possible anymore, only SOCKS5 proxies are supported.</source>
-        <translation>Unsupported argument -socks found. Setting SOCKS version isn&apos;t possible anymore, only SOCKS5 proxies are supported.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Unsupported argument -whitelistalwaysrelay ignored, use -whitelistrelay and/or -whitelistforcerelay.</source>
-        <translation>Unsupported argument -whitelistalwaysrelay ignored, use -whitelistrelay and/or -whitelistforcerelay.</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
-        <translation>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>WARNING! Failed to replenish keypool, please unlock your wallet to do so.</source>
-        <translation>WARNING! Failed to replenish keypool, please unlock your wallet to do so.</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Wallet is locked, can&apos;t replenish keypool! Automatic backups and mixing are disabled, please unlock your wallet to replenish keypool.</source>
-        <translation>Wallet is locked, can&apos;t replenish keypool! Automatic backups and mixing are disabled, please unlock your wallet to replenish keypool.</translation>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>Warning: Unknown block versions being mined! It&apos;s possible unknown rules are in effect</source>
-        <translation>Warning: Unknown block versions being mined! It&apos;s possible unknown rules are in effect</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
-        <translation>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>(%d could be used only on mainnet)</source>
-        <translation>(%d could be used only on mainnet)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>(default: %u)</source>
-        <translation>(default: %u)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>(must be %d for mainnet)</source>
-        <translation>(must be %d for mainnet)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>-maxmempool must be at least %d MB</source>
-        <translation>-maxmempool must be at least %d MB</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&lt;category&gt; can be:</source>
-        <translation>&lt;category&gt; can be:</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Append comment to the user agent string</source>
-        <translation>Append comment to the user agent string</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Automatic backups disabled</source>
-        <translation>Automatic backups disabled</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Automatically create Tor hidden service (default: %d)</source>
-        <translation>Automatically create Tor hidden service (default: %d)</translation>
-    </message>
-    <message>
-        <location line="+22"/>
-        <source>ERROR! Failed to create automatic backup</source>
-        <translation>ERROR! Failed to create automatic backup</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enable publish hash block in &lt;address&gt;</source>
-        <translation>Enable publish hash block in &lt;address&gt;</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enable publish hash transaction (locked via InstantSend) in &lt;address&gt;</source>
-        <translation>Enable publish hash transaction (locked via InstantSend) in &lt;address&gt;</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enable publish hash transaction in &lt;address&gt;</source>
-        <translation>Enable publish hash transaction in &lt;address&gt;</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enable publish raw block in &lt;address&gt;</source>
-        <translation>Enable publish raw block in &lt;address&gt;</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enable publish raw transaction (locked via InstantSend) in &lt;address&gt;</source>
-        <translation>Enable publish raw transaction (locked via InstantSend) in &lt;address&gt;</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enable publish raw transaction in &lt;address&gt;</source>
-        <translation>Enable publish raw transaction in &lt;address&gt;</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Enable transaction replacement in the memory pool (default: %u)</source>
-        <translation>Enable transaction replacement in the memory pool (default: %u)</translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>Error: A fatal internal error occurred, see debug.log for details</source>
-        <translation>Error: A fatal internal error occurred, see debug.log for details</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Failed to create backup %s!</source>
-        <translation>Failed to create backup %s!</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to create backup, error: %s</source>
-        <translation>Failed to create backup, error: %s</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to delete backup, error: %s</source>
-        <translation>Failed to delete backup, error: %s</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Failed to parse host:port string</source>
-        <translation>Failed to parse host:port string</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Fee (in %s/kB) to add to transactions you send (default: %s)</source>
-        <translation>Fee (in %s/kB) to add to transactions you send (default: %s)</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Imports blocks from external blk000??.dat file on startup</source>
-        <translation>Imports blocks from external blk000??.dat file on startup</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>InstantSend options:</source>
-        <translation>InstantSend options:</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Invalid amount for -fallbackfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Invalid amount for -fallbackfee=&lt;amount&gt;: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Keep the transaction memory pool below &lt;n&gt; megabytes (default: %u)</source>
-        <translation>Keep the transaction memory pool below &lt;n&gt; megabytes (default: %u)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Last PrivateSend was too recent.</source>
-        <translation>Last PrivateSend was too recent.</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Last successful PrivateSend action was too recent.</source>
-        <translation>Last successful PrivateSend action was too recent.</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Line: %d</source>
         <translation>Line: %d</translation>
     </message>
@@ -6104,17 +5381,12 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Loading addresses...</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>Loading block index...</source>
         <translation>Loading block index...</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Loading governance cache...</source>
-        <translation>Loading governance cache...</translation>
-    </message>
-    <message>
-        <location line="+3"/>
+        <location line="+4"/>
         <source>Loading wallet... (%3.2f %%)</source>
         <translation>Loading wallet... (%3.2f %%)</translation>
     </message>
@@ -6124,22 +5396,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Loading wallet...</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Location of the auth cookie (default: data dir)</source>
-        <translation>Location of the auth cookie (default: data dir)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Make the wallet broadcast transactions</source>
-        <translation>Make the wallet broadcast transactions</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Masternode cache is empty, skipping payments and governance cache...</source>
-        <translation>Masternode cache is empty, skipping payments and governance cache...</translation>
-    </message>
-    <message>
-        <location line="+1"/>
+        <location line="+4"/>
         <source>Masternode options:</source>
         <translation>Masternode options:</translation>
     </message>
@@ -6155,18 +5412,13 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Minimum bytes per sigop in transactions we relay and mine (default: %u)</source>
-        <translation>Minimum bytes per sigop in transactions we relay and mine (default: %u)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Missing input transaction information.</source>
         <translation>Missing input transaction information.</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>No errors detected.</source>
-        <translation>No errors detected.</translation>
+        <location line="+5"/>
+        <source>No funds detected in need of denominating.</source>
+        <translation>No funds detected in need of denominating.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6194,17 +5446,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Not enough file descriptors available.</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Not enough funds to anonymize.</source>
-        <translation>Not enough funds to anonymize.</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Number of automatic wallet backups (default: %u)</source>
-        <translation>Number of automatic wallet backups (default: %u)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>Options:</source>
         <translation>Options:</translation>
     </message>
@@ -6214,424 +5456,39 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Password for JSON-RPC connections</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Print version and exit</source>
-        <translation>Print version and exit</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>PrivateSend is idle.</source>
-        <translation>PrivateSend is idle.</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>PrivateSend options:</source>
-        <translation>PrivateSend options:</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>PrivateSend request complete:</source>
-        <translation>PrivateSend request complete:</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>PrivateSend request incomplete:</source>
-        <translation>PrivateSend request incomplete:</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Prune cannot be configured with a negative value.</source>
-        <translation>Prune cannot be configured with a negative value.</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Prune mode is incompatible with -txindex.</source>
-        <translation>Prune mode is incompatible with -txindex.</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Pruning blockstore...</source>
-        <translation>Pruning blockstore...</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Rescan the block chain for missing wallet transactions on startup</source>
-        <translation>Rescan the block chain for missing wallet transactions on startup</translation>
-    </message>
-    <message>
-        <location line="+37"/>
-        <source>The wallet will avoid paying less than the minimum relay fee.</source>
-        <translation>The wallet will avoid paying less than the minimum relay fee.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>This is the minimum transaction fee you pay on every transaction.</source>
-        <translation>This is the minimum transaction fee you pay on every transaction.</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>This is the transaction fee you will pay if you send a transaction.</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Transaction amounts must not be negative</source>
-        <translation>Transaction amounts must not be negative</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Transaction has too long of a mempool chain</source>
-        <translation>Transaction has too long of a mempool chain</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Transaction must have at least one recipient</source>
-        <translation>Transaction must have at least one recipient</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Trying to connect...</source>
-        <translation>Trying to connect...</translation>
-    </message>
-    <message>
         <location line="+2"/>
-        <source>Unable to bind to %s on this computer. %s is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. %s is probably already running.</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>Upgrading UTXO database</source>
-        <translation>Upgrading UTXO database</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Use devnet chain with provided name</source>
-        <translation>Use devnet chain with provided name</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Wallet debugging/testing options:</source>
-        <translation>Wallet debugging/testing options:</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Wallet needed to be rewritten: restart %s to complete</source>
-        <translation>Wallet needed to be rewritten: restart %s to complete</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Warning: unknown new rules activated (versionbit %i)</source>
-        <translation>Warning: unknown new rules activated (versionbit %i)</translation>
+        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wasn&apos;t able to create wallet backup folder %s!</source>
-        <translation>Wasn&apos;t able to create wallet backup folder %s!</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Whether to operate in a blocks only mode (default: %u)</source>
-        <translation>Whether to operate in a blocks only mode (default: %u)</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>ZeroMQ notification options:</source>
-        <translation>ZeroMQ notification options:</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>no mixing available.</source>
-        <translation>no mixing available.</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>see debug.log for details.</source>
-        <translation>see debug.log for details.</translation>
-    </message>
-    <message>
-        <location line="-99"/>
         <source>RPC server options:</source>
         <translation>RPC server options:</translation>
     </message>
     <message>
-        <location line="-475"/>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <location line="+1"/>
+        <source>RPC support for HTTP persistent connections (default: %d)</source>
+        <translation>RPC support for HTTP persistent connections (default: %d)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>The %s developers</source>
-        <translation>The %s developers</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect/-noconnect)</source>
-        <translation>Accept connections from outside (default: 1 if no -proxy or -connect/-noconnect)</translation>
-    </message>
-    <message>
-        <location line="+20"/>
-        <source>Cannot obtain a lock on data directory %s. %s is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. %s is probably already running.</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Connect only to the specified node(s); -noconnect or -connect=0 alone to disable automatic connections</source>
-        <translation>Connect only to the specified node(s); -noconnect or -connect=0 alone to disable automatic connections</translation>
-    </message>
-    <message>
-        <location line="+15"/>
-        <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
-        <translation>Distributed under the MIT software license, see the accompanying file %s or %s</translation>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</translation>
-    </message>
-    <message>
-        <location line="+27"/>
-        <source>Force relay of transactions from whitelisted peers even if they violate local relay policy (default: %d)</source>
-        <translation>Force relay of transactions from whitelisted peers even if they violate local relay policy (default: %d)</translation>
-    </message>
-    <message>
-        <location line="+18"/>
-        <source>Incorrect or no devnet genesis block found. Wrong datadir for devnet specified?</source>
-        <translation>Incorrect or no devnet genesis block found. Wrong datadir for devnet specified?</translation>
-    </message>
-    <message>
-        <location line="+30"/>
-        <source>Maximum allowed median peer time offset adjustment. Local perspective of time may be influenced by peers forward or backward by this amount. (default: %u seconds)</source>
-        <translation>Maximum allowed median peer time offset adjustment. Local perspective of time may be influenced by peers forward or backward by this amount. (default: %u seconds)</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Maximum total fees (in %s) to use in a single wallet transaction or raw transaction; setting this too low may abort large transactions (default: %s)</source>
-        <translation>Maximum total fees (in %s) to use in a single wallet transaction or raw transaction; setting this too low may abort large transactions (default: %s)</translation>
-    </message>
-    <message>
-        <location line="+9"/>
-        <source>Override spork address. Only useful for regtest and devnet. Using this on mainnet or testnet will ban you.</source>
-        <translation>Override spork address. Only useful for regtest and devnet. Using this on mainnet or testnet will ban you.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Please check that your computer&apos;s date and time are correct! If your clock is wrong, %s will not work properly.</source>
-        <translation>Please check that your computer&apos;s date and time are correct! If your clock is wrong, %s will not work properly.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
-        <translation>Please contribute if you find %s useful. Visit %s for further information about the software.</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Provide liquidity to PrivateSend by infrequently mixing coins on a continual basis (%u-%u, default: %u, 1=very frequent, high fees, %u=very infrequent, low fees)</source>
-        <translation>Provide liquidity to PrivateSend by infrequently mixing coins on a continual basis (%u-%u, default: %u, 1=very frequent, high fees, %u=very infrequent, low fees)</translation>
-    </message>
-    <message>
-        <location line="+9"/>
-        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect/-noconnect)</source>
-        <translation>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect/-noconnect)</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Reduce storage requirements by enabling pruning (deleting) of old blocks. This allows the pruneblockchain RPC to be called to delete specific blocks, and enables automatic pruning of old blocks if a target size in MiB is provided. This mode is incompatible with -txindex and -rescan. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, 1 = allow manual pruning via RPC, &gt;%u = automatically prune block files to stay under the specified target size in MiB)</source>
-        <translation>Reduce storage requirements by enabling pruning (deleting) of old blocks. This allows the pruneblockchain RPC to be called to delete specific blocks, and enables automatic pruning of old blocks if a target size in MiB is provided. This mode is incompatible with -txindex and -rescan. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, 1 = allow manual pruning via RPC, &gt;%u = automatically prune block files to stay under the specified target size in MiB)</translation>
-    </message>
-    <message>
-        <location line="+12"/>
-        <source>Set lowest fee rate (in %s/kB) for transactions to be included in block creation. (default: %s)</source>
-        <translation>Set lowest fee rate (in %s/kB) for transactions to be included in block creation. (default: %s)</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Show N confirmations for a successfully locked transaction (%u-%u, default: %u)</source>
-        <translation>Show N confirmations for a successfully locked transaction (%u-%u, default: %u)</translation>
-    </message>
-    <message>
-        <location line="+17"/>
-        <source>This is the transaction fee you may pay when fee estimates are not available.</source>
-        <translation>This is the transaction fee you may pay when fee estimates are not available.</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit %s and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
-        <translation>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit %s and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</translation>
-    </message>
-    <message>
-        <location line="+12"/>
-        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction.</source>
-        <translation>Unable to locate enough PrivateSend non-denominated funds for this transaction.</translation>
-    </message>
-    <message>
-        <location line="+9"/>
-        <source>Use N separate masternodes for each denominated input to mix funds (%u-%u, default: %u)</source>
-        <translation>Use N separate masternodes for each denominated input to mix funds (%u-%u, default: %u)</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Use hierarchical deterministic key generation (HD) after BIP39/BIP44. Only has effect during wallet creation/first start</source>
-        <translation>Use hierarchical deterministic key generation (HD) after BIP39/BIP44. Only has effect during wallet creation/first start</translation>
-    </message>
-    <message>
-        <location line="+9"/>
-        <source>User defined mnemonic passphrase for HD wallet (BIP39). Only has effect during wallet creation/first start (default: empty string)</source>
-        <translation>User defined mnemonic passphrase for HD wallet (BIP39). Only has effect during wallet creation/first start (default: empty string)</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Username and hashed password for JSON-RPC connections. The field &lt;userpw&gt; comes in the format: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. A canonical python script is included in share/rpcuser. The client then connects normally using the rpcuser=&lt;USERNAME&gt;/rpcpassword=&lt;PASSWORD&gt; pair of arguments. This option can be specified multiple times</source>
-        <translation>Username and hashed password for JSON-RPC connections. The field &lt;userpw&gt; comes in the format: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. A canonical python script is included in share/rpcuser. The client then connects normally using the rpcuser=&lt;USERNAME&gt;/rpcpassword=&lt;PASSWORD&gt; pair of arguments. This option can be specified multiple times</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Wallet will not create transactions that violate mempool chain limits (default: %u)</source>
-        <translation>Wallet will not create transactions that violate mempool chain limits (default: %u)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Warning: At least %d of %d masternodes are running on a newer software version. Please check latest releases, you might need to update too.</source>
-        <translation>Warning: At least %d of %d masternodes are running on a newer software version. Please check latest releases, you might need to update too.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Warning: Every masternode (out of %d known ones) is running on a newer software version. Please check latest releases, it&apos;s very likely that you missed a major/critical update.</source>
-        <translation>Warning: Every masternode (out of %d known ones) is running on a newer software version. Please check latest releases, it&apos;s very likely that you missed a major/critical update.</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>Warning: Wallet file corrupt, data salvaged! Original %s saved as %s in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Warning: Wallet file corrupt, data salvaged! Original %s saved as %s in %s; if your balance or transactions are incorrect you should restore from a backup.</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Whitelist peers connecting from the given IP address (e.g. 1.2.3.4) or CIDR notated network (e.g. 1.2.3.0/24). Can be specified multiple times.</source>
-        <translation>Whitelist peers connecting from the given IP address (e.g. 1.2.3.4) or CIDR notated network (e.g. 1.2.3.0/24). Can be specified multiple times.</translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>%s corrupt, salvage failed</source>
-        <translation>%s corrupt, salvage failed</translation>
+        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
+        <translation>Randomly drop 1 of every &lt;n&gt; network messages</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>%s is not a valid backup folder!</source>
-        <translation>%s is not a valid backup folder!</translation>
+        <source>Randomly fuzz 1 of every &lt;n&gt; network messages</source>
+        <translation>Randomly fuzz 1 of every &lt;n&gt; network messages</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>%s is set very high!</source>
-        <translation>%s is set very high!</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>(press q to shutdown and continue later)</source>
-        <translation>(press q to shutdown and continue later)</translation>
+        <source>Rebuild block chain index from current blk000??.dat files</source>
+        <translation>Rebuild block chain index from current blk000??.dat files</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>-devnet can only be specified once</source>
-        <translation>-devnet can only be specified once</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>-port must be specified when -devnet and -listen are specified</source>
-        <translation>-port must be specified when -devnet and -listen are specified</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>-rpcport must be specified when -devnet and -server are specified</source>
-        <translation>-rpcport must be specified when -devnet and -server are specified</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Allow RFC1918 addresses to be relayed and connected to (default: %u)</source>
-        <translation>Allow RFC1918 addresses to be relayed and connected to (default: %u)</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Attempt to recover private keys from a corrupt wallet on startup</source>
-        <translation>Attempt to recover private keys from a corrupt wallet on startup</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Cannot resolve -%s address: &apos;%s&apos;</source>
-        <translation>Cannot resolve -%s address: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Change index out of range</source>
-        <translation>Change index out of range</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Copyright (C)</source>
-        <translation>Copyright (C)</translation>
-    </message>
-    <message>
-        <location line="+20"/>
-        <source>Error loading %s</source>
-        <translation>Error loading %s</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Error loading %s: Wallet corrupted</source>
-        <translation>Error loading %s: Wallet corrupted</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Error loading %s: Wallet requires newer version of %s</source>
-        <translation>Error loading %s: Wallet requires newer version of %s</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error upgrading chainstate database</source>
-        <translation>Error upgrading chainstate database</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Failed to find mixing queue to join</source>
-        <translation>Failed to find mixing queue to join</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Failed to start a new mixing queue</source>
-        <translation>Failed to start a new mixing queue</translation>
-    </message>
-    <message>
-        <location line="+12"/>
-        <source>Initialization sanity check failed. %s is shutting down.</source>
-        <translation>Initialization sanity check failed. %s is shutting down.</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Invalid amount for -%s=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Invalid amount for -%s=&lt;amount&gt;: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Invalid spork address specified with -sporkaddr</source>
-        <translation>Invalid spork address specified with -sporkaddr</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Keep N DASH anonymized (%u-%u, default: %u)</source>
-        <translation>Keep N DASH anonymized (%u-%u, default: %u)</translation>
-    </message>
-    <message>
-        <location line="+49"/>
-        <source>Print this help message and exit</source>
-        <translation>Print this help message and exit</translation>
-    </message>
-    <message>
-        <location line="+12"/>
         <source>Receive and display P2P network alerts (default: %u)</source>
         <translation>Receive and display P2P network alerts (default: %u)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Reducing -maxconnections from %d to %d, because of system limitations.</source>
-        <translation>Reducing -maxconnections from %d to %d, because of system limitations.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6644,22 +5501,22 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Relay non-P2SH multisig (default: %u)</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>Rescan the block chain for missing wallet transactions</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Rescanning...</source>
         <translation>Rescanning...</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+2"/>
         <source>Run in the background as a daemon and accept commands</source>
         <translation>Run in the background as a daemon and accept commands</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Send trace/debug info to console instead of debug.log file</translation>
-    </message>
-    <message>
-        <location line="+3"/>
+        <location line="+5"/>
         <source>Session not complete!</source>
         <translation>Session not complete!</translation>
     </message>
@@ -6674,17 +5531,17 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Set database cache size in megabytes (%d to %d, default: %d)</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>Set maximum block size in bytes (default: %d)</source>
         <translation>Set maximum block size in bytes (default: %d)</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+2"/>
         <source>Set the masternode private key</source>
         <translation>Set the masternode private key</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>Show all debugging options (usage: --help -help-debug)</source>
         <translation>Show all debugging options (usage: --help -help-debug)</translation>
     </message>
@@ -6695,6 +5552,11 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+1"/>
+        <source>Signing failed.</source>
+        <translation>Signing failed.</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Signing transaction failed</source>
         <translation>Signing transaction failed</translation>
     </message>
@@ -6714,47 +5576,37 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Specify your own public address</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Starting network threads...</source>
-        <translation>Starting network threads...</translation>
-    </message>
-    <message>
-        <location line="+7"/>
+        <location line="+8"/>
         <source>Synchronization pending...</source>
         <translation>Synchronization pending...</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Synchronizing governance objects...</source>
-        <translation>Synchronizing governance objects...</translation>
+        <location line="+5"/>
+        <source>This help message</source>
+        <translation>This help message</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Synchronizing masternode payments...</source>
-        <translation>Synchronizing masternode payments...</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>The source code is available from %s.</source>
-        <translation>The source code is available from %s.</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>The transaction amount is too small to pay the fee</source>
-        <translation>The transaction amount is too small to pay the fee</translation>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>This is experimental software.</source>
         <translation>This is experimental software.</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+1"/>
+        <source>This is intended for regression testing tools and app development.</source>
+        <translation>This is intended for regression testing tools and app development.</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Transaction amount too small</source>
         <translation>Transaction amount too small</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
+        <source>Transaction amounts must be positive</source>
+        <translation>Transaction amounts must be positive</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Transaction created successfully.</source>
         <translation>Transaction created successfully.</translation>
     </message>
@@ -6764,7 +5616,7 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Transaction fees are too high.</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+1"/>
         <source>Transaction not valid.</source>
         <translation>Transaction not valid.</translation>
     </message>
@@ -6774,29 +5626,64 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Transaction too large for fee policy</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
+        <source>Transaction too large</source>
+        <translation>Transaction too large</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Transmitting final transaction.</source>
+        <translation>Transmitting final transaction.</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
         <translation>Unable to bind to %s on this computer (bind returned error %s)</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>Unable to sign spork message, wrong key?</source>
         <translation>Unable to sign spork message, wrong key?</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
         <translation>Unknown network specified in -onlynet: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>Unknown state: id = %u</source>
         <translation>Unknown state: id = %u</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+1"/>
+        <source>Upgrade wallet to latest format</source>
+        <translation>Upgrade wallet to latest format</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>Use OpenSSL (https) for JSON-RPC connections</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
+        <translation>Use UPnP to map the listening port (default: 1 when listening)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Use the test network</source>
+        <translation>Use the test network</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Username for JSON-RPC connections</source>
         <translation>Username for JSON-RPC connections</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Value more than Darksend pool maximum allows.</source>
+        <translation>Value more than Darksend pool maximum allows.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6810,16 +5697,11 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Very low number of keys left: %d</source>
-        <translation>Very low number of keys left: %d</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Wallet %s resides outside data directory %s</source>
         <translation>Wallet %s resides outside data directory %s</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>Wallet is locked.</source>
         <translation>Wallet is locked.</translation>
     </message>
@@ -6839,7 +5721,17 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Warning</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+1"/>
+        <source>Warning: This version is obsolete, upgrade required!</source>
+        <translation>Warning: This version is obsolete, upgrade required!</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>You need to rebuild the database using -reindex to change -txindex</source>
+        <translation>You need to rebuild the database using -reindex to change -txindex</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Your entries added successfully.</source>
         <translation>Your entries added successfully.</translation>
     </message>
@@ -6852,6 +5744,16 @@ https://www.transifex.com/projects/p/dash/</translation>
         <location line="+1"/>
         <source>Zapping all transactions from wallet...</source>
         <translation>Zapping all transactions from wallet...</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>on startup</source>
+        <translation>on startup</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>wallet.dat corrupt, salvage failed</source>
+        <translation>wallet.dat corrupt, salvage failed</translation>
     </message>
 </context>
 </TS>
