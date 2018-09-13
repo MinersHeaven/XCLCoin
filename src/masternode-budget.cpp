@@ -512,7 +512,7 @@ CBudgetProposal *CBudgetManager::FindProposal(const std::string &strProposalName
 {
     //find the prop with the highest yes count
 
-    int nYesCount = -99999;
+    int nYesCount = -19939;
     CBudgetProposal* pbudgetProposal = NULL;
 
     std::map<uint256, CBudgetProposal>::iterator it = mapProposals.begin();
@@ -524,7 +524,7 @@ CBudgetProposal *CBudgetManager::FindProposal(const std::string &strProposalName
         ++it;
     }
 
-    if(nYesCount == -99999) return NULL;
+    if(nYesCount == -19939) return NULL;
 
     return pbudgetProposal;
 }

@@ -3702,8 +3702,8 @@ https://www.transifex.com/projects/p/xcl/</translation>
         <translation>Задай брой заявки, когато се използва генериране (-1 =всички ядра, по подразбиране: %d)</translation>
     </message>
     <message>
-        <source>Show N confirmations for a successfully locked transaction (0-9999, default: %u)</source>
-        <translation>Покажи N потвърждения при успешно заключена транзакция (0-9999, по подразбиране: %u)</translation>
+        <source>Show N confirmations for a successfully locked transaction (0-1993, default: %u)</source>
+        <translation>Покажи N потвърждения при успешно заключена транзакция (0-1993, по подразбиране: %u)</translation>
     </message>
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
@@ -3749,8 +3749,8 @@ for example: alertnotify=echo %%s | mail -s "XCL Alert" admin@foo.com
         <translation>Whitelisted не могат да бъдат DoS забранени и техните транзакции ще бъдат винаги предадени, дори ако вече са в  mempool, полезно напр. за gateway</translation>
     </message>
     <message>
-        <source>(9999 could be used only on mainnet)</source>
-        <translation>(9999 може да бъде използван в основната мрежа)</translation>
+        <source>(1993 could be used only on mainnet)</source>
+        <translation>(1993 може да бъде използван в основната мрежа)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4167,8 +4167,8 @@ for example: alertnotify=echo %%s | mail -s "XCL Alert" admin@foo.com
         <translation>Невалиден частен ключ на Masternode. Моля вижте документацията.</translation>
     </message>
     <message>
-        <source>(must be 9999 for mainnet)</source>
-        <translation>(трябва да е 9999 за основната мрежа)</translation>
+        <source>(must be 1993 for mainnet)</source>
+        <translation>(трябва да е 1993 за основната мрежа)</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>

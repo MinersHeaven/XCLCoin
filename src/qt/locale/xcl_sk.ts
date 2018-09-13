@@ -3701,8 +3701,8 @@ https://www.transifex.com/projects/p/xcl/</translation>
         <translation>Nastaviť počet vlákien pre generáciu mincí (-1 = všetky jadrá, predvolené: %d)</translation>
     </message>
     <message>
-        <source>Show N confirmations for a successfully locked transaction (0-9999, default: %u)</source>
-        <translation>Ukázať N potvrdení pre úspešne zamknutú transakciu (0-9999, predvolené: %u)</translation>
+        <source>Show N confirmations for a successfully locked transaction (0-1993, default: %u)</source>
+        <translation>Ukázať N potvrdení pre úspešne zamknutú transakciu (0-1993, predvolené: %u)</translation>
     </message>
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
@@ -3757,8 +3757,8 @@ napríklad: alertnotify=echo %%s | mail -s "XCL Upozornenie" admin@foo.com
         <translation>Uzle na zoznam povolených nemôžu byť DoS zakázané a ich transakcie vždy postúpené ďalej, aj v prípade, ak sú už pamäťovej fronte. Užitočné napr. pre brány</translation>
     </message>
     <message>
-        <source>(9999 could be used only on mainnet)</source>
-        <translation>(9999 nemôže byť použité pre hlavnú sieť)</translation>
+        <source>(1993 could be used only on mainnet)</source>
+        <translation>(1993 nemôže byť použité pre hlavnú sieť)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4175,8 +4175,8 @@ napríklad: alertnotify=echo %%s | mail -s "XCL Upozornenie" admin@foo.com
         <translation>Neplatný masternodeprivkey. Prosím pozrite do dokumentácie.</translation>
     </message>
     <message>
-        <source>(must be 9999 for mainnet)</source>
-        <translation>(pre hlavnú sieť musí byť 9999)</translation>
+        <source>(must be 1993 for mainnet)</source>
+        <translation>(pre hlavnú sieť musí byť 1993)</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>

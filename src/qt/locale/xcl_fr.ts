@@ -3702,8 +3702,8 @@ https://www.transifex.com/projects/p/xcl/</translation>
         <translation>Définir la limite processeur définissant quand la génération est en fonction (-1 = illimité, par défaut : %d)</translation>
     </message>
     <message>
-        <source>Show N confirmations for a successfully locked transaction (0-9999, default: %u)</source>
-        <translation>Afficher N confirmations for une transaction verrouillée réussie (0-9999, default : %u)</translation>
+        <source>Show N confirmations for a successfully locked transaction (0-1993, default: %u)</source>
+        <translation>Afficher N confirmations for une transaction verrouillée réussie (0-1993, default : %u)</translation>
     </message>
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
@@ -3758,8 +3758,8 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte XCL" admin@foo.com
         <translation>Pairs en liste blanche ne peuvent être bannis pour DoS et leurs transactions sont toujours relayées, même si elles sont déjà en mémoire, utile par ex. pour une passerelle</translation>
     </message>
     <message>
-        <source>(9999 could be used only on mainnet)</source>
-        <translation>(9999 n'est utilisable que sur mainnet)</translation>
+        <source>(1993 could be used only on mainnet)</source>
+        <translation>(1993 n'est utilisable que sur mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4176,8 +4176,8 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte XCL" admin@foo.com
         <translation>masternodeprivkey invalide. Veuillez vous référer à la documentation.</translation>
     </message>
     <message>
-        <source>(must be 9999 for mainnet)</source>
-        <translation>(doit être 9999 pour mainnet)</translation>
+        <source>(must be 1993 for mainnet)</source>
+        <translation>(doit être 1993 pour mainnet)</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>

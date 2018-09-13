@@ -3702,8 +3702,8 @@ https://www.transifex.com/projects/p/xcl/</translation>
         <translation>Задать число потоков выполнения для генерации монет, если таковая включена (-1 = все ядра, по умолчанию: %d)</translation>
     </message>
     <message>
-        <source>Show N confirmations for a successfully locked transaction (0-9999, default: %u)</source>
-        <translation>Показывать N подтверждений для успешно заблокированной транзакции (0-9999, по умолчанию: %u)</translation>
+        <source>Show N confirmations for a successfully locked transaction (0-1993, default: %u)</source>
+        <translation>Показывать N подтверждений для успешно заблокированной транзакции (0-1993, по умолчанию: %u)</translation>
     </message>
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
@@ -3758,8 +3758,8 @@ rpcpassword=%s
         <translation>Пиры, внесенные в белый список, не будут подвергаться DoS блокировкам и их транзакции будут ретранслироваться, даже если они уже есть в пуле памяти, что полезно, например, для работы в качестве шлюза</translation>
     </message>
     <message>
-        <source>(9999 could be used only on mainnet)</source>
-        <translation>(9999 можно использовать только в главной сети)</translation>
+        <source>(1993 could be used only on mainnet)</source>
+        <translation>(1993 можно использовать только в главной сети)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4176,8 +4176,8 @@ rpcpassword=%s
         <translation>Неправильное значение masternodeprivkey. Пожалуйста, ознакомьтесь с документацией.</translation>
     </message>
     <message>
-        <source>(must be 9999 for mainnet)</source>
-        <translation>(должно быть 9999 в главной сети)</translation>
+        <source>(must be 1993 for mainnet)</source>
+        <translation>(должно быть 1993 в главной сети)</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>

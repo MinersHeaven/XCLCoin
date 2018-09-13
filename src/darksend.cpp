@@ -1434,7 +1434,7 @@ bool CDarksendPool::DoAutomaticDenominating(bool fDryRun)
         nValueIn = 0;
         vCoins.clear();
 
-        if (pwalletMain->SelectCoinsDark(nValueMin, 9999999*COIN, vCoins, nValueIn, -2, 0))
+        if (pwalletMain->SelectCoinsDark(nValueMin, 1993999*COIN, vCoins, nValueIn, -2, 0))
         {
             nOnlyDenominatedBalance = pwalletMain->GetDenominatedBalance(true) + pwalletMain->GetDenominatedBalance() - pwalletMain->GetAnonymizedBalance();
             nBalanceNeedsDenominated = nBalanceNeedsAnonymized - nOnlyDenominatedBalance;
@@ -1853,7 +1853,7 @@ bool CDarksendPool::IsCompatibleWithSession(int64_t nDenom, CTransaction txColla
     if(sessionUsers < 0) sessionUsers = 0;
 
     if(sessionUsers == 0) {
-        sessionID = 1 + (rand() % 999999);
+        sessionID = 1 + (rand() % 199399);
         sessionDenom = nDenom;
         sessionUsers++;
         lastTimeChanged = GetTimeMillis();

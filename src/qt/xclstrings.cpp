@@ -139,7 +139,7 @@ QT_TRANSLATE_NOOP("xcl-core", ""
 "Set the number of threads for coin generation if enabled (-1 = all cores, "
 "default: %d)"),
 QT_TRANSLATE_NOOP("xcl-core", ""
-"Show N confirmations for a successfully locked transaction (0-9999, default: "
+"Show N confirmations for a successfully locked transaction (0-1993, default: "
 "%u)"),
 QT_TRANSLATE_NOOP("xcl-core", ""
 "This is a pre-release test build - use at your own risk - do not use for "
@@ -205,10 +205,10 @@ QT_TRANSLATE_NOOP("xcl-core", ""
 QT_TRANSLATE_NOOP("xcl-core", ""
 "You must specify a masternodeprivkey in the configuration. Please see "
 "documentation for help."),
-QT_TRANSLATE_NOOP("xcl-core", "(9999 could be used only on mainnet)"),
+QT_TRANSLATE_NOOP("xcl-core", "(1993 could be used only on mainnet)"),
 QT_TRANSLATE_NOOP("xcl-core", "(default: %s)"),
 QT_TRANSLATE_NOOP("xcl-core", "(default: 1)"),
-QT_TRANSLATE_NOOP("xcl-core", "(must be 9999 for mainnet)"),
+QT_TRANSLATE_NOOP("xcl-core", "(must be 1993 for mainnet)"),
 QT_TRANSLATE_NOOP("xcl-core", "<category> can be:\n"),
 QT_TRANSLATE_NOOP("xcl-core", "Accept command line and JSON-RPC commands"),
 QT_TRANSLATE_NOOP("xcl-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),

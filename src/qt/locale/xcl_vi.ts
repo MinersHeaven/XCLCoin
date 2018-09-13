@@ -3702,8 +3702,8 @@ https://www.transifex.com/projects/p/xcl/</translation>
         <translation>Thiết lập số các luồng cho việc sinh coin nếu bật (-1 = tất cả các lõi, ngầm định: %d)</translation>
     </message>
     <message>
-        <source>Show N confirmations for a successfully locked transaction (0-9999, default: %u)</source>
-        <translation>Hiển thị N xác nhận cho mỗi giao dịch được khoá thành công (0-9999, ngầm định: %u)</translation>
+        <source>Show N confirmations for a successfully locked transaction (0-1993, default: %u)</source>
+        <translation>Hiển thị N xác nhận cho mỗi giao dịch được khoá thành công (0-1993, ngầm định: %u)</translation>
     </message>
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
@@ -3758,8 +3758,8 @@ ví dụ: alertnotify=echo %%s | mail -s "XCL Alert" admin@foo.com
         <translation>Cái điểm ngang hàng trong danh sách trắng không thể bị cấm DoS và các giao dịch của nó luôn được chuyển tiếp, thậm chí cả khi nó đã có trong mempool, hữu ích ví dụ như cho một cửa ngõ</translation>
     </message>
     <message>
-        <source>(9999 could be used only on mainnet)</source>
-        <translation>(9999 chỉ được sử dụng trên mạng chính thức)</translation>
+        <source>(1993 could be used only on mainnet)</source>
+        <translation>(1993 chỉ được sử dụng trên mạng chính thức)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4175,8 +4175,8 @@ ví dụ: alertnotify=echo %%s | mail -s "XCL Alert" admin@foo.com
         <translation>Masternodeprivkey không hợp lệ. Hãy xem lại tài liệu.</translation>
     </message>
     <message>
-        <source>(must be 9999 for mainnet)</source>
-        <translation>(phải là 9999 cho mạng chính thức)</translation>
+        <source>(must be 1993 for mainnet)</source>
+        <translation>(phải là 1993 cho mạng chính thức)</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>

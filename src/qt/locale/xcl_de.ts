@@ -3702,8 +3702,8 @@ Dies kann passieren, wenn einige XCL aus ihrer Wallet bereits ausgegeben wurden.
         <translation>Legt ein Prozessor-/CPU-Kernlimit fest, wenn CPU-Mining aktiviert ist (-1 = unbegrenzt, Standard: %d)</translation>
     </message>
     <message>
-        <source>Show N confirmations for a successfully locked transaction (0-9999, default: %u)</source>
-        <translation>Anzahl Bestätigungen  für eine erfolgreich gesperrte Transaktion (0-9999, voreingestellt: %u)</translation>
+        <source>Show N confirmations for a successfully locked transaction (0-1993, default: %u)</source>
+        <translation>Anzahl Bestätigungen  für eine erfolgreich gesperrte Transaktion (0-1993, voreingestellt: %u)</translation>
     </message>
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
@@ -3757,8 +3757,8 @@ zum Beispiel: alertnotify=echo %%s | mail -s \"XCL Alert\" admin@foo.com</transl
         <translation>Erlaubte Gegenstellen können nicht wegen DoS ausgeschlossen werden und ihre Transaktionen werden immer weitergeleitet, sogar wenn sie schon im Memory-Pool sind. Dies ist z.B. für Gateways nützlich.</translation>
     </message>
     <message>
-        <source>(9999 could be used only on mainnet)</source>
-        <translation>(9999 kann nur im Standardnetz benutzt werden)</translation>
+        <source>(1993 could be used only on mainnet)</source>
+        <translation>(1993 kann nur im Standardnetz benutzt werden)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4176,8 +4176,8 @@ XCL Core wird heruntergefahren.</translation>
         <translation>Masternode-Geheimschlüssel (masternodeprivkey) ist ungültig. Siehe Dokumentation. </translation>
     </message>
     <message>
-        <source>(must be 9999 for mainnet)</source>
-        <translation>(muss für Standardnetz 9999 sein)</translation>
+        <source>(must be 1993 for mainnet)</source>
+        <translation>(muss für Standardnetz 1993 sein)</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>
