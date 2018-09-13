@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=XCL
+Comment=XCL P2P Cryptocurrency
+Comment[fr]=XCL, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=XCL, eşten eşe kriptografik sanal para birimi
+Exec=xcl-qt %u
+Terminal=false
+Type=Application
+Icon=xcl128
+MimeType=x-scheme-handler/xcl;
+Categories=Office;Finance;

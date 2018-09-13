@@ -1,0 +1,27 @@
+# /etc/conf.d/xcld: config file for /etc/init.d/xcld
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/xcl/xcl.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/xcld"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/xcld.pid"
+
+# Where to write xcld data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/xcld"
+
+# User and group to own xcld process
+#BITCOIND_USER="xcl"
+#BITCOIND_GROUP="xcl"
+
+# Path to xcld executable
+#BITCOIND_BIN="/usr/bin/xcld"
+
+# Nice value to run xcld under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS="-disablewallet"
+
